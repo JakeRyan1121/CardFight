@@ -22,4 +22,13 @@ namespace Stephenson.j_Card_Fight
             MessageBox.Show("Does it work?");
         }
     }
+
+    public class Cards
+    {
+        public string Name { get; set; }
+        public int Health { get; set; }
+       
+
+
+    } 
 }
