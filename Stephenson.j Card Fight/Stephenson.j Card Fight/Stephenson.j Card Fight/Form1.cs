@@ -27,8 +27,8 @@ namespace Stephenson.j_Card_Fight
     {
         public string Name { get; set; }
         public int Health { get; set; }
-       
-
-
+        public int Attack { get; set; }
+        public int Cost { get; set; }
+        
     } 
 }
