@@ -19,7 +19,7 @@ namespace Stephenson.j_Card_Fight
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Jake");
         }
     }
 }
