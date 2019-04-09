@@ -40,9 +40,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(375, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 13);
+            this.label2.Size = new System.Drawing.Size(168, 13);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Enter your atarting money (1-2000)";
+            this.label2.Text = "Enter your starting money (1-2000)";
             // 
             // label1
             // 
