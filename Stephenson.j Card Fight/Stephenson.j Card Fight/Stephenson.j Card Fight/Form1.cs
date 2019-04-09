@@ -31,17 +31,31 @@ namespace Stephenson.j_Card_Fight
 
         private void txtName_TextChanged(object sender, EventArgs e)
         {
-
+            strName = txtName.Text;
         }
 
         private void txtMoney_TextChanged(object sender, EventArgs e)
         {
-
+            try
+            {
+                intGold = Convert.ToInt16(txtMoney.Text);
+            }
+            catch
+            {
+                blnCorrect = false;
+            }
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-
+            if (blnCorrect == true)
+            {
+                MessageBox.Show(strName + "\n" + intGold);
+            }
+            else
+            {
+                MessageBox.Show("Only numbers");
+            }
         }
     }
     // test
@@ -52,6 +66,6 @@ namespace Stephenson.j_Card_Fight
         public int Health { get; set; }
         public int Attack { get; set; }
         public int Cost { get; set; }
-        
-    } 
+
+    }
 }
