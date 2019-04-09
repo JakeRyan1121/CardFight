@@ -23,6 +23,7 @@ namespace Stephenson.j_Card_Fight
             
         }
     }
+    //
 
     public class Cards
     {
