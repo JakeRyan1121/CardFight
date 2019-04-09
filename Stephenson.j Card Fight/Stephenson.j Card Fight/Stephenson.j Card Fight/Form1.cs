@@ -12,7 +12,7 @@ namespace Stephenson.j_Card_Fight
 {
     public partial class Form1 : Form
     {
-
+    int intGold = 0;
         public Form1()
         {
             InitializeComponent();
@@ -20,14 +20,10 @@ namespace Stephenson.j_Card_Fight
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Cards[] cardsHand = new Cards[10];
-
-            for (int Instantiate = 0; Instantiate < 10; Instantiate++)
-            {
-                cardsHand[Instantiate] = new Cards();
-            }
+            
         }
     }
+    //
 
     public class Cards
     {
