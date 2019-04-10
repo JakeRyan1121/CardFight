@@ -53,6 +53,7 @@ namespace Stephenson.j_Card_Fight
                 else
                 {
                     MessageBox.Show(strName + "\n" + intGold);
+
                 }
             }
             catch
@@ -61,14 +62,5 @@ namespace Stephenson.j_Card_Fight
             }
         }
     }
-    // test
 
-    /*public class Cards
-    {
-        public string Name { get; set; }
-        public int Health { get; set; }
-        public int Attack { get; set; }
-        public int Cost { get; set; }
-
-    }*/
 }

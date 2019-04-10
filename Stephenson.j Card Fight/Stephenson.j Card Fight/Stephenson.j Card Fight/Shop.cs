@@ -35,25 +35,30 @@ namespace Stephenson.j_Card_Fight
             Vitas vitas = new Vitas();
             Extra extra = new Extra();
 
-            MessageBox.Show(humanSwordsman.GetName() + " " + humanSwordsman.GetAttack() + " " + humanSwordsman.GetDefence() + " " + humanSwordsman.GetCost() + "\n" +
-                orcGrunt.GetName() + " " + orcGrunt.GetAttack() + " " + orcGrunt.GetDefence() + " " + orcGrunt.GetCost() + "\n" +
-                elvenArcher.GetName() + " " + elvenArcher.GetAttack() + " " + elvenArcher.GetDefence() + " " + elvenArcher.GetCost() + "\n" +
-                dwarfHammerWarrior.GetName() + " " + dwarfHammerWarrior.GetAttack() + " " + dwarfHammerWarrior.GetDefence() + " " + dwarfHammerWarrior.GetCost() + "\n" +
+            MessageBox.Show(humanSwordsman.GetName() + " " + humanSwordsman.GetAttack() + " " + humanSwordsman.GetHealth() + " " + humanSwordsman.GetCost() + "\n" +
+                orcGrunt.GetName() + " " + orcGrunt.GetAttack() + " " + orcGrunt.GetHealth() + " " + orcGrunt.GetCost() + "\n" +
+                elvenArcher.GetName() + " " + elvenArcher.GetAttack() + " " + elvenArcher.GetHealth() + " " + elvenArcher.GetCost() + "\n" +
+                dwarfHammerWarrior.GetName() + " " + dwarfHammerWarrior.GetAttack() + " " + dwarfHammerWarrior.GetHealth() + " " + dwarfHammerWarrior.GetCost() + "\n" +
 
-                knight.GetName() + " " + knight.GetAttack() + " " + knight.GetDefence() + " " + knight.GetCost() + "\n" +
-                orcBerserker.GetName() + " " + orcBerserker.GetAttack() + " " + orcBerserker.GetDefence() + " " + orcBerserker.GetCost() + "\n" +
-                barbarianWarrior.GetName() + " " + barbarianWarrior.GetAttack() + " " + barbarianWarrior.GetDefence() + " " + barbarianWarrior.GetCost() + "\n" +
-                druidBearShaman.GetName() + " " + druidBearShaman.GetAttack() + " " + druidBearShaman.GetDefence() + " " + druidBearShaman.GetCost() + "\n" +
+                knight.GetName() + " " + knight.GetAttack() + " " + knight.GetHealth() + " " + knight.GetCost() + "\n" +
+                orcBerserker.GetName() + " " + orcBerserker.GetAttack() + " " + orcBerserker.GetHealth() + " " + orcBerserker.GetCost() + "\n" +
+                barbarianWarrior.GetName() + " " + barbarianWarrior.GetAttack() + " " + barbarianWarrior.GetHealth() + " " + barbarianWarrior.GetCost() + "\n" +
+                druidBearShaman.GetName() + " " + druidBearShaman.GetAttack() + " " + druidBearShaman.GetHealth() + " " + druidBearShaman.GetCost() + "\n" +
 
-                wolfWarrior.GetName() + " " + wolfWarrior.GetAttack() + " " + wolfWarrior.GetDefence() + " " + wolfWarrior.GetCost() + "\n" +
-                rockMonster.GetName() + " " + rockMonster.GetAttack() + " " + rockMonster.GetDefence() + " " + rockMonster.GetCost() + "\n" +
-                paladin.GetName() + " " + paladin.GetAttack() + " " + paladin.GetDefence() + " " + paladin.GetCost() + "\n" +
-                orcCrusader.GetName() + " " + orcCrusader.GetAttack() + " " + orcCrusader.GetDefence() + " " + orcCrusader.GetCost() + "\n" +
+                wolfWarrior.GetName() + " " + wolfWarrior.GetAttack() + " " + wolfWarrior.GetHealth() + " " + wolfWarrior.GetCost() + "\n" +
+                rockMonster.GetName() + " " + rockMonster.GetAttack() + " " + rockMonster.GetHealth() + " " + rockMonster.GetCost() + "\n" +
+                paladin.GetName() + " " + paladin.GetAttack() + " " + paladin.GetHealth() + " " + paladin.GetCost() + "\n" +
+                orcCrusader.GetName() + " " + orcCrusader.GetAttack() + " " + orcCrusader.GetHealth() + " " + orcCrusader.GetCost() + "\n" +
 
-                humanSwordsman.GetName() + " " + humanSwordsman.GetAttack() + " " + humanSwordsman.GetDefence() + " " + humanSwordsman.GetCost() + "\n" +
-                orcGrunt.GetName() + " " + orcGrunt.GetAttack() + " " + orcGrunt.GetDefence() + " " + orcGrunt.GetCost() + "\n" +
-                elvenArcher.GetName() + " " + elvenArcher.GetAttack() + " " + elvenArcher.GetDefence() + " " + elvenArcher.GetCost() + "\n" +
-                dwarfHammerWarrior.GetName() + " " + dwarfHammerWarrior.GetAttack() + " " + dwarfHammerWarrior.GetDefence() + " " + dwarfHammerWarrior.GetCost() + "\n");
+                humanSwordsman.GetName() + " " + humanSwordsman.GetAttack() + " " + humanSwordsman.GetHealth() + " " + humanSwordsman.GetCost() + "\n" +
+                orcGrunt.GetName() + " " + orcGrunt.GetAttack() + " " + orcGrunt.GetHealth() + " " + orcGrunt.GetCost() + "\n" +
+                elvenArcher.GetName() + " " + elvenArcher.GetAttack() + " " + elvenArcher.GetHealth() + " " + elvenArcher.GetCost() + "\n" +
+                dwarfHammerWarrior.GetName() + " " + dwarfHammerWarrior.GetAttack() + " " + dwarfHammerWarrior.GetHealth() + " " + dwarfHammerWarrior.GetCost() + "\n");
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
     public class Cards
@@ -71,7 +76,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 0;
         }
-        public virtual int GetDefence()
+        public virtual int GetHealth()
         {
             return 0;
         }
@@ -90,7 +95,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 2;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 3;
         }
@@ -109,7 +114,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 3;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 4;
         }
@@ -128,7 +133,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 3;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 2;
         }
@@ -147,7 +152,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 3;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 5;
         }
@@ -166,7 +171,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 4;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 5;
         }
@@ -185,7 +190,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 6;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 3;
         }
@@ -204,7 +209,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 4;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 5;
         }
@@ -223,7 +228,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 2;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 8;
         }
@@ -242,7 +247,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 7;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 3;
         }
@@ -261,7 +266,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 1;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 9;
         }
@@ -280,7 +285,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 6;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 7;
         }
@@ -299,7 +304,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 8;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 5;
         }
@@ -318,7 +323,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 8;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 8;
         }
@@ -337,7 +342,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 9;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 8;
         }
@@ -356,7 +361,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 12;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 12;
         }
@@ -375,7 +380,7 @@ namespace Stephenson.j_Card_Fight
         {
             return 0;
         }
-        public override int GetDefence()
+        public override int GetHealth()
         {
             return 1;
         }
