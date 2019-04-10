@@ -57,12 +57,18 @@ namespace Stephenson.j_Card_Fight
             }
             catch
             {
-                MessageBox.Show("Only numbers can be input for the amount of gold");
+                MessageBox.Show("Only numbers");
             }
-
         }
-
-
     }
+    // test
 
+    /*public class Cards
+    {
+        public string Name { get; set; }
+        public int Health { get; set; }
+        public int Attack { get; set; }
+        public int Cost { get; set; }
+
+    }*/
 }
