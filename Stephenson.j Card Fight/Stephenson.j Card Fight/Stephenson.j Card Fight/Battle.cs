@@ -16,5 +16,10 @@ namespace Stephenson.j_Card_Fight
         {
             InitializeComponent();
         }
+
+        private void Battle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
