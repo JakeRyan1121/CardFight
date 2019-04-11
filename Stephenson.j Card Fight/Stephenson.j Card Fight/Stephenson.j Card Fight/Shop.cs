@@ -15,6 +15,11 @@ namespace Stephenson.j_Card_Fight
         public Shop()
         {
             InitializeComponent();
+            string strName = Form1.strName;
+            int intGold = Form1.intGold;
+
+            lblName.Text = strName;
+            lblGold.Text = Convert.ToString(intGold);
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -57,6 +62,11 @@ namespace Stephenson.j_Card_Fight
         }
 
         private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblName_Click(object sender, EventArgs e)
         {
 
         }
