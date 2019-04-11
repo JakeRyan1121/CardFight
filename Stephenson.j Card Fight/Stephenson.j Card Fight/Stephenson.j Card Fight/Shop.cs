@@ -21,6 +21,7 @@ namespace Stephenson.j_Card_Fight
             lblName.Text = strName;
             lblGold.Text = Convert.ToString(intGold);
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             HumanSwordman humanSwordsman = new HumanSwordman();

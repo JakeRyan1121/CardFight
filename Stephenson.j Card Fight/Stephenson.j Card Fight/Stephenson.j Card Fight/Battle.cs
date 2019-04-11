@@ -21,5 +21,7 @@ namespace Stephenson.j_Card_Fight
         {
 
         }
+
+        
     }
 }

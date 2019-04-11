@@ -31,6 +31,7 @@ namespace Stephenson.j_Card_Fight
 
         private void txtMoney_TextChanged(object sender, EventArgs e)
         {
+
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)
@@ -38,6 +39,7 @@ namespace Stephenson.j_Card_Fight
             strName = txtName.Text;
 
         }
+
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             try
