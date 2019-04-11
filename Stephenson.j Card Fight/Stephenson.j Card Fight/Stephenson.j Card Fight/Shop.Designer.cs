@@ -49,9 +49,9 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(13, 13);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.Size = new System.Drawing.Size(142, 13);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "label1";
+            this.lblName.Text = "This is were the name will be";
             this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // label2
@@ -68,9 +68,9 @@
             this.lblGold.AutoSize = true;
             this.lblGold.Location = new System.Drawing.Point(55, 42);
             this.lblGold.Name = "lblGold";
-            this.lblGold.Size = new System.Drawing.Size(35, 13);
+            this.lblGold.Size = new System.Drawing.Size(132, 13);
             this.lblGold.TabIndex = 3;
-            this.lblGold.Text = "label3";
+            this.lblGold.Text = "this is were the gold will be";
             // 
             // Shop
             // 
