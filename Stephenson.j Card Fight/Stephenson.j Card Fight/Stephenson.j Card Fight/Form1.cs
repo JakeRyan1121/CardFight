@@ -15,7 +15,6 @@ namespace Stephenson.j_Card_Fight
         Cards[] cardsHand = new Cards[10];
         public static string strName = "";
         public static int intGold = 0;
-        bool blnCorrect = true;
 
         public Form1()
         {
@@ -32,15 +31,13 @@ namespace Stephenson.j_Card_Fight
 
         private void txtMoney_TextChanged(object sender, EventArgs e)
         {
-            strName = txtName.Text;
-
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)
         {
             strName = txtName.Text;
-        }
 
+        }
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             try
@@ -48,7 +45,7 @@ namespace Stephenson.j_Card_Fight
                 intGold = Convert.ToInt16(txtMoney.Text);
                 if (intGold < 1 || intGold > 2000)
                 {
-                    MessageBox.Show("The amount of money has to be between 1 and 2000");
+                    MessageBox.Show("The amount of money has to be between 1 and 2000");                 
                 }
                 else
                 {
@@ -61,6 +58,8 @@ namespace Stephenson.j_Card_Fight
                 MessageBox.Show("Only numbers");
             }
         }
+
+        
     }
 
 }
