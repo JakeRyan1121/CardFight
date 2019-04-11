@@ -83,6 +83,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Shop";
             this.Text = "Shop";
+            this.Load += new System.EventHandler(this.Shop_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
