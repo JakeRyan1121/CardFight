@@ -50,7 +50,8 @@ namespace Stephenson.j_Card_Fight
                 else
                 {
                     MessageBox.Show(strName + "\n" + intGold);
-
+                    Shop form2 = new Shop();
+                    form2.ShowDialog();
                 }
             }
             catch
