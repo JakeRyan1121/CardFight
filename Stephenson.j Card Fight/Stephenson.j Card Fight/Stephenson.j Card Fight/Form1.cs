@@ -59,7 +59,7 @@ namespace Stephenson.j_Card_Fight
             }
             catch
             {
-                MessageBox.Show("Only numbers");
+                MessageBox.Show("Only numbers can be input for the gold");
             }
         }
 

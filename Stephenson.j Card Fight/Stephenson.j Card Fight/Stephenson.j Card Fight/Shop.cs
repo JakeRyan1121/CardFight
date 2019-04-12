@@ -13,7 +13,7 @@ namespace Stephenson.j_Card_Fight
     public partial class Shop : Form
     {
         Cards[] arrayCards = new Cards[10];
-        int i = 0;
+        int intCountCards = 0;
 
         public Shop()
         {
@@ -24,397 +24,7 @@ namespace Stephenson.j_Card_Fight
             lblName.Text = strName;
             lblGold.Text = Convert.ToString(intGold);
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Human Swordsman";
-                arrayCards[i].Attack = 2;
-                arrayCards[i].Defence = 3;
-                arrayCards[i].Cost = 100;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Orc Grunt";
-                arrayCards[i].Attack = 3;
-                arrayCards[i].Defence = 4;
-                arrayCards[i].Cost = 200;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Elven Archer";
-                arrayCards[i].Attack = 3;
-                arrayCards[i].Defence = 2;
-                arrayCards[i].Cost = 150;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Dwarf Hammer Warrior";
-                arrayCards[i].Attack = 3;
-                arrayCards[i].Defence = 5;
-                arrayCards[i].Cost = 250;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Knight";
-                arrayCards[i].Attack = 4;
-                arrayCards[i].Defence = 5;
-                arrayCards[i].Cost = 300;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Orc Berserker";
-                arrayCards[i].Attack = 6;
-                arrayCards[i].Defence = 3;
-                arrayCards[i].Cost = 300;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Barbarian warrior";
-                arrayCards[i].Attack = 4;
-                arrayCards[i].Defence = 5;
-                arrayCards[i].Cost = 300;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Druid Bear Shaman";
-                arrayCards[i].Attack = 2;
-                arrayCards[i].Defence = 8;
-                arrayCards[i].Cost = 350;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Wolf Warrior";
-                arrayCards[i].Attack = 7;
-                arrayCards[i].Defence = 3;
-                arrayCards[i].Cost = 350;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Rock Monster";
-                arrayCards[i].Attack = 1;
-                arrayCards[i].Defence = 9;
-                arrayCards[i].Cost = 350;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Paladin";
-                arrayCards[i].Attack = 6;
-                arrayCards[i].Defence = 7;
-                arrayCards[i].Cost = 450;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Orc Crusader";
-                arrayCards[i].Attack = 8;
-                arrayCards[i].Defence = 5;
-                arrayCards[i].Cost = 450;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "The Old Guard";
-                arrayCards[i].Attack = 8;
-                arrayCards[i].Defence = 8;
-                arrayCards[i].Cost = 500;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Tiger Orc Berserker";
-                arrayCards[i].Attack = 9;
-                arrayCards[i].Defence = 8;
-                arrayCards[i].Cost = 550;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Vitas";
-                arrayCards[i].Attack = 12;
-                arrayCards[i].Defence = 12;
-                arrayCards[i].Cost = 2000;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            if (i >= 10)
-            {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[i].Name + " " + arrayCards[i].Attack + " " + arrayCards[i].Defence + " " + arrayCards[i].Cost;
-                }
-                MessageBox.Show(strDisplay);
-            }
-            else
-            {
-                arrayCards[i].Name = "Extra";
-                arrayCards[i].Attack = 0;
-                arrayCards[i].Defence = 1;
-                arrayCards[i].Cost = 5;
-
-                //add to array
-            }
-            i++;
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void lblName_Click(object sender, EventArgs e)
         {
 
@@ -428,9 +38,388 @@ namespace Stephenson.j_Card_Fight
             }
         }
 
-        private void button16_Click_1(object sender, EventArgs e)
+        private void btnExtra_Click(object sender, EventArgs e)
         {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Extra";
+                arrayCards[intCountCards].Attack = 0;
+                arrayCards[intCountCards].Defence = 1;
+                arrayCards[intCountCards].Cost = 5;
 
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnHumanSwordsman_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Human Swordsman";
+                arrayCards[intCountCards].Attack = 2;
+                arrayCards[intCountCards].Defence = 3;
+                arrayCards[intCountCards].Cost = 100;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnElvenArcher_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Elven Archer";
+                arrayCards[intCountCards].Attack = 3;
+                arrayCards[intCountCards].Defence = 2;
+                arrayCards[intCountCards].Cost = 150;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnOrcGrunt_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Orc Grunt";
+                arrayCards[intCountCards].Attack = 3;
+                arrayCards[intCountCards].Defence = 4;
+                arrayCards[intCountCards].Cost = 200;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnDwarfHammer_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Dwarf Hammer Warrior";
+                arrayCards[intCountCards].Attack = 3;
+                arrayCards[intCountCards].Defence = 5;
+                arrayCards[intCountCards].Cost = 250;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnKnight_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Knight";
+                arrayCards[intCountCards].Attack = 4;
+                arrayCards[intCountCards].Defence = 5;
+                arrayCards[intCountCards].Cost = 300;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnOrcBerserker_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Orc Berserker";
+                arrayCards[intCountCards].Attack = 6;
+                arrayCards[intCountCards].Defence = 3;
+                arrayCards[intCountCards].Cost = 300;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnBarbarianWarrior_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Barbarian warrior";
+                arrayCards[intCountCards].Attack = 4;
+                arrayCards[intCountCards].Defence = 5;
+                arrayCards[intCountCards].Cost = 300;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnDruidBear_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Druid Bear Shaman";
+                arrayCards[intCountCards].Attack = 2;
+                arrayCards[intCountCards].Defence = 8;
+                arrayCards[intCountCards].Cost = 350;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnWolfWarrior_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Wolf Warrior";
+                arrayCards[intCountCards].Attack = 7;
+                arrayCards[intCountCards].Defence = 3;
+                arrayCards[intCountCards].Cost = 350;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnRockMonster_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Rock Monster";
+                arrayCards[intCountCards].Attack = 1;
+                arrayCards[intCountCards].Defence = 9;
+                arrayCards[intCountCards].Cost = 350;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnPaladin_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Paladin";
+                arrayCards[intCountCards].Attack = 6;
+                arrayCards[intCountCards].Defence = 7;
+                arrayCards[intCountCards].Cost = 450;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnOrcCrusader_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Orc Crusader";
+                arrayCards[intCountCards].Attack = 8;
+                arrayCards[intCountCards].Defence = 5;
+                arrayCards[intCountCards].Cost = 450;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnTheOldGuard_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "The Old Guard";
+                arrayCards[intCountCards].Attack = 8;
+                arrayCards[intCountCards].Defence = 8;
+                arrayCards[intCountCards].Cost = 500;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnTigerOrc_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Tiger Orc Berserker";
+                arrayCards[intCountCards].Attack = 9;
+                arrayCards[intCountCards].Defence = 8;
+                arrayCards[intCountCards].Cost = 550;
+
+                //add to array
+            }
+            intCountCards++;
+        }
+
+        private void btnVitas_Click(object sender, EventArgs e)
+        {
+            if (intCountCards >= 10)
+            {
+                //they choose the max //use for loop
+                string strDisplay = "Name   Attack   Defence   Cost";
+                for (int j = 0; j < 10; j++)
+                {
+                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
+                }
+                MessageBox.Show(strDisplay);
+            }
+            else
+            {
+                arrayCards[intCountCards].Name = "Vitas";
+                arrayCards[intCountCards].Attack = 12;
+                arrayCards[intCountCards].Defence = 12;
+                arrayCards[intCountCards].Cost = 2000;
+
+                //add to array
+            }
+            intCountCards++;
         }
     }
     public class Cards
