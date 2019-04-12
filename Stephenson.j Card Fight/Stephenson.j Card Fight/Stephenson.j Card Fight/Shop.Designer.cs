@@ -53,11 +53,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(102, 72);
+            this.button1.Location = new System.Drawing.Point(172, 84);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 45);
+            this.button1.Size = new System.Drawing.Size(81, 75);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Human Swordsman\r\nHealth – 3\r\nAttack – 2\r\nCost – 100";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -91,150 +91,151 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(189, 72);
+            this.button2.Location = new System.Drawing.Point(259, 84);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(81, 45);
+            this.button2.Size = new System.Drawing.Size(81, 75);
             this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
+            this.button2.Text = "Elven Archer\r\nHealth – 2\r\nAttack – 3\r\nCost – 150";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(276, 72);
+            this.button3.Location = new System.Drawing.Point(346, 84);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(81, 45);
+            this.button3.Size = new System.Drawing.Size(81, 75);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Orc Grunt\r\nHealth – 4\r\nAttack – 3\r\nCost – 200";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(363, 72);
+            this.button4.Location = new System.Drawing.Point(85, 166);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(81, 45);
+            this.button4.Size = new System.Drawing.Size(81, 75);
             this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
+            this.button4.Text = "Dwarf Hammer W.\r\nHealth – 5\r\nAttack – 3\r\nCost – 250";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(102, 123);
+            this.button5.Location = new System.Drawing.Point(172, 165);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(81, 45);
+            this.button5.Size = new System.Drawing.Size(81, 75);
             this.button5.TabIndex = 10;
-            this.button5.Text = "button5";
+            this.button5.Text = "Knight\r\nHealth – 5\r\nAttack – 4\r\nCost – 300";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(189, 123);
+            this.button6.Location = new System.Drawing.Point(259, 165);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(81, 45);
+            this.button6.Size = new System.Drawing.Size(81, 75);
             this.button6.TabIndex = 9;
-            this.button6.Text = "button6";
+            this.button6.Text = "Orc Berserker\r\nHealth – 3\r\nAttack – 6\r\nCost – 300";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(276, 123);
+            this.button7.Location = new System.Drawing.Point(346, 165);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(81, 45);
+            this.button7.Size = new System.Drawing.Size(81, 75);
             this.button7.TabIndex = 8;
-            this.button7.Text = "button7";
+            this.button7.Text = "Barbarian Warrior\r\nHealth – 5\r\nAttack – 4\r\nCost – 300";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(363, 123);
+            this.button8.Location = new System.Drawing.Point(85, 247);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(81, 45);
+            this.button8.Size = new System.Drawing.Size(81, 75);
             this.button8.TabIndex = 7;
-            this.button8.Text = "button8";
+            this.button8.Text = "Druid Bear Shaman\r\nHealth – 8\r\nAttack – 2\r\nCost – 350";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(102, 174);
+            this.button9.Location = new System.Drawing.Point(172, 246);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(81, 45);
+            this.button9.Size = new System.Drawing.Size(81, 75);
             this.button9.TabIndex = 14;
-            this.button9.Text = "button9";
+            this.button9.Text = "Wolf Warrior\r\nHealth – 3\r\nAttack – 7\r\nCost – 350";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(189, 174);
+            this.button10.Location = new System.Drawing.Point(259, 246);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(81, 45);
+            this.button10.Size = new System.Drawing.Size(81, 75);
             this.button10.TabIndex = 13;
-            this.button10.Text = "button10";
+            this.button10.Text = "Rock Monster\r\nHealth – 9\r\nAttack – 1\r\nCost – 350";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(276, 174);
+            this.button11.Location = new System.Drawing.Point(346, 246);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(81, 45);
+            this.button11.Size = new System.Drawing.Size(81, 75);
             this.button11.TabIndex = 12;
-            this.button11.Text = "button11";
+            this.button11.Text = "Paladin\r\nHealth – 7\r\nAttack – 6\r\nCost – 450";
             this.button11.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(363, 174);
+            this.button12.Location = new System.Drawing.Point(85, 328);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(81, 45);
+            this.button12.Size = new System.Drawing.Size(81, 75);
             this.button12.TabIndex = 11;
-            this.button12.Text = "button12";
+            this.button12.Text = "Orc Crusader\r\nHealth – 5\r\nAttack – 8\r\nCost – 450";
             this.button12.UseVisualStyleBackColor = true;
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(102, 225);
+            this.button13.Location = new System.Drawing.Point(172, 327);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(81, 45);
+            this.button13.Size = new System.Drawing.Size(81, 75);
             this.button13.TabIndex = 18;
-            this.button13.Text = "button13";
+            this.button13.Text = "The Old Guard\r\nHealth – 8\r\nAttack – 8\r\nCost – 500";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(189, 225);
+            this.button14.Location = new System.Drawing.Point(259, 327);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(81, 45);
+            this.button14.Size = new System.Drawing.Size(81, 75);
             this.button14.TabIndex = 17;
-            this.button14.Text = "button14";
+            this.button14.Text = "Tiger Orc Berserker\r\nHealth – 8\r\nAttack – 9\r\nCost – 550";
             this.button14.UseVisualStyleBackColor = true;
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(276, 225);
+            this.button15.Location = new System.Drawing.Point(346, 327);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(81, 45);
+            this.button15.Size = new System.Drawing.Size(81, 75);
             this.button15.TabIndex = 16;
-            this.button15.Text = "button15";
+            this.button15.Text = "Vitas\r\nHealth – 12\r\nAttack – 12\r\nCost – 2000";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(363, 225);
+            this.button16.Location = new System.Drawing.Point(85, 84);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(81, 45);
+            this.button16.Size = new System.Drawing.Size(81, 75);
             this.button16.TabIndex = 15;
-            this.button16.Text = "button16";
+            this.button16.Text = "Extra\r\nHealth – 1\r\nAttack – 0\r\nCost – 5";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click_1);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(510, 47);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(229, 238);
+            this.listBox1.Size = new System.Drawing.Size(229, 264);
             this.listBox1.TabIndex = 19;
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(487, 343);
+            this.button17.Location = new System.Drawing.Point(664, 380);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 23);
             this.button17.TabIndex = 20;

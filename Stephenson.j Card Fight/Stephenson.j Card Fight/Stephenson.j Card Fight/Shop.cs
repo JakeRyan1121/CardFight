@@ -427,6 +427,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[j] = new Cards();
             }
         }
+
+        private void button16_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
     public class Cards
     {
