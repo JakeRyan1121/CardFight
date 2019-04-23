@@ -15,14 +15,15 @@ namespace Stephenson.j_Card_Fight
         Cards[] arrayCards = new Cards[10];
         int intCountCards = 0;
 
+        string strName = Form1.strName;
+        int intGold = Form1.intGold;
+
+        //lblName.Text = strName;
+        //lblGold.Text = Convert.ToString(intGold);
+
         public Shop()
         {
             InitializeComponent();
-            string strName = Form1.strName;
-            int intGold = Form1.intGold;
-
-            lblName.Text = strName;
-            lblGold.Text = Convert.ToString(intGold);
         }
         
         private void lblName_Click(object sender, EventArgs e)
@@ -420,6 +421,11 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+
         }
     }
     public class Cards

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,21 +46,23 @@ namespace Stephenson.j_Card_Fight
             try
             {
                 intGold = Convert.ToInt16(txtMoney.Text);
-                if (intGold < 1 || intGold > 2000)
-                {
-                    MessageBox.Show("The amount of money has to be between 1 and 2000");                 
-                }
-                else
-                {
-                    MessageBox.Show(strName + "\n" + intGold);
-                    this.Hide();
-                    Shop form2 = new Shop();
-                    form2.ShowDialog();
-                }
+ 
             }
             catch
             {
                 MessageBox.Show("Only numbers can be input for the gold");
+            }
+
+            if (intGold < 1 || intGold > 2000) 
+            {
+                MessageBox.Show("The amount of money has to be between 1 and 2000");
+            }
+            else
+            {
+                MessageBox.Show(strName + "\n" + intGold);
+                this.Hide();
+                Shop form2 = new Shop();
+                form2.ShowDialog();
             }
         }
 
