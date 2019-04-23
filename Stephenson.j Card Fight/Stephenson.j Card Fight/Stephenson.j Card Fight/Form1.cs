@@ -16,6 +16,7 @@ namespace Stephenson.j_Card_Fight
         Cards[] cardsHand = new Cards[10];
         public static string strName = "";
         public static int intGold = 0;
+        bool blnCorrect;
 
         public Form1()
         {
@@ -50,20 +51,28 @@ namespace Stephenson.j_Card_Fight
             }
             catch
             {
-                MessageBox.Show("Only numbers can be input for the gold");
+                blnCorrect = false;
             }
 
-            if (intGold < 1 || intGold > 2000) 
+            if (blnCorrect == false)
             {
-                MessageBox.Show("The amount of money has to be between 1 and 2000");
+                MessageBox.Show("Only numbers can be input for the gold");
             }
             else
             {
-                MessageBox.Show(strName + "\n" + intGold);
-                this.Hide();
-                Shop form2 = new Shop();
-                form2.ShowDialog();
+                if (intGold < 1 || intGold > 2000)
+                {
+                    MessageBox.Show("The amount of money has to be between 1 and 2000");
+                }
+                else
+                {
+                    MessageBox.Show(strName + "\n" + intGold);
+                    this.Hide();
+                    Shop form2 = new Shop();
+                    form2.ShowDialog();
+                }
             }
+            blnCorrect = true; 
         }
 
         

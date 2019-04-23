@@ -435,7 +435,8 @@ namespace Stephenson.j_Card_Fight
         public int Defence { get; set; }
         public int Cost { get; set; }
 
-        /*public virtual string GetName()
+        /*
+        public virtual string GetName()
         {
             return "";
         }
