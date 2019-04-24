@@ -21,19 +21,23 @@ namespace Stephenson.j_Card_Fight
 
         private void Battle_Load(object sender, EventArgs e)
         {
-            btnHand1.Text = arrayCards[0].Name;
-            btnHand2.Text = arrayCards[1].Name;
-            btnHand3.Text = arrayCards[2].Name;
-            btnHand4.Text = arrayCards[3].Name;
-            btnHand5.Text = arrayCards[4].Name;
-            btnHand6.Text = arrayCards[5].Name;
-            btnHand7.Text = arrayCards[6].Name;
-            btnHand8.Text = arrayCards[7].Name;
-            btnHand9.Text = arrayCards[8].Name;
-            btnHand10.Text = arrayCards[9].Name;
+            btnHand1.Text = arrayCards[0].Name + "\n" + "Health: " + arrayCards[0].Defence + "\n" + "Attack: " + arrayCards[0].Attack;  
+            btnHand2.Text = arrayCards[1].Name + "\n" + "Health: " + arrayCards[1].Defence + "\n" + "Attack: " + arrayCards[1].Attack; 
+            btnHand3.Text = arrayCards[2].Name + "\n" + "Health: " + arrayCards[2].Defence + "\n" + "Attack: " + arrayCards[2].Attack; 
+            btnHand4.Text = arrayCards[3].Name + "\n" + "Health: " + arrayCards[3].Defence + "\n" + "Attack: " + arrayCards[3].Attack; 
+            btnHand5.Text = arrayCards[4].Name + "\n" + "Health: " + arrayCards[4].Defence + "\n" + "Attack: " + arrayCards[4].Attack; 
+            btnHand6.Text = arrayCards[5].Name + "\n" + "Health: " + arrayCards[5].Defence + "\n" + "Attack: " + arrayCards[5].Attack; 
+            btnHand7.Text = arrayCards[6].Name + "\n" + "Health: " + arrayCards[6].Defence + "\n" + "Attack: " + arrayCards[6].Attack; 
+            btnHand8.Text = arrayCards[7].Name + "\n" + "Health: " + arrayCards[7].Defence + "\n" + "Attack: " + arrayCards[7].Attack; 
+            btnHand9.Text = arrayCards[8].Name + "\n" + "Health: " + arrayCards[8].Defence + "\n" + "Attack: " + arrayCards[8].Attack; 
+            btnHand10.Text = arrayCards[9].Name + "\n" + "Health: " + arrayCards[9].Defence + "\n" + "Attack: " + arrayCards[9].Attack; 
+
 
         }
 
+        private void btnSlot1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

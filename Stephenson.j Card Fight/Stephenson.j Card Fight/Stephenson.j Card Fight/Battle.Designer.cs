@@ -272,6 +272,7 @@
             this.btnSlot1.TabIndex = 0;
             this.btnSlot1.Text = "1";
             this.btnSlot1.UseVisualStyleBackColor = true;
+            this.btnSlot1.Click += new System.EventHandler(this.btnSlot1_Click);
             // 
             // btnHand9
             // 
