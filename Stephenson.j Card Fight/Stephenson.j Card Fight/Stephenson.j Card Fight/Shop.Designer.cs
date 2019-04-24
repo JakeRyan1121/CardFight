@@ -47,7 +47,7 @@
             this.btnTigerOrc = new System.Windows.Forms.Button();
             this.btnVitas = new System.Windows.Forms.Button();
             this.btnExtra = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lstChoices = new System.Windows.Forms.ListBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -239,13 +239,13 @@
             this.btnExtra.UseVisualStyleBackColor = true;
             this.btnExtra.Click += new System.EventHandler(this.btnExtra_Click);
             // 
-            // listBox1
+            // lstChoices
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(510, 47);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(229, 264);
-            this.listBox1.TabIndex = 19;
+            this.lstChoices.FormattingEnabled = true;
+            this.lstChoices.Location = new System.Drawing.Point(510, 47);
+            this.lstChoices.Name = "lstChoices";
+            this.lstChoices.Size = new System.Drawing.Size(229, 264);
+            this.lstChoices.TabIndex = 19;
             // 
             // btnSubmit
             // 
@@ -263,7 +263,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lstChoices);
             this.Controls.Add(this.btnTheOldGuard);
             this.Controls.Add(this.btnTigerOrc);
             this.Controls.Add(this.btnVitas);
@@ -312,7 +312,7 @@
         private System.Windows.Forms.Button btnTigerOrc;
         private System.Windows.Forms.Button btnVitas;
         private System.Windows.Forms.Button btnExtra;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstChoices;
         private System.Windows.Forms.Button btnSubmit;
     }
 }

@@ -65,6 +65,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Extra");
+
         }
 
         private void btnHumanSwordsman_Click(object sender, EventArgs e)
@@ -85,6 +87,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Human Swordsman");
+
         }
 
         private void btnElvenArcher_Click(object sender, EventArgs e)
@@ -105,6 +109,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Elven Archer");
+
         }
 
         private void btnOrcGrunt_Click(object sender, EventArgs e)
@@ -125,6 +131,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Orc Grunt");
         }
 
         private void btnDwarfHammer_Click(object sender, EventArgs e)
@@ -145,6 +152,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Dwarf Hammer Warrior");
+
         }
 
         private void btnKnight_Click(object sender, EventArgs e)
@@ -165,6 +174,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Knight");
         }
 
         private void btnOrcBerserker_Click(object sender, EventArgs e)
@@ -185,6 +195,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Orc Berserker");
+
         }
 
         private void btnBarbarianWarrior_Click(object sender, EventArgs e)
@@ -205,6 +217,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Barbarian Warrior");
         }
 
         private void btnDruidBear_Click(object sender, EventArgs e)
@@ -225,6 +238,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Druid Bear Shaman");
+
         }
 
         private void btnWolfWarrior_Click(object sender, EventArgs e)
@@ -245,6 +260,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Wolf Warrior");
         }
 
         private void btnRockMonster_Click(object sender, EventArgs e)
@@ -265,6 +281,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Rock Monster");
         }
 
         private void btnPaladin_Click(object sender, EventArgs e)
@@ -285,6 +302,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Paladin");
         }
 
         private void btnOrcCrusader_Click(object sender, EventArgs e)
@@ -305,6 +323,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Orc Crusader");
         }
 
         private void btnTheOldGuard_Click(object sender, EventArgs e)
@@ -325,6 +344,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("The Old Guard");
         }
 
         private void btnTigerOrc_Click(object sender, EventArgs e)
@@ -345,6 +365,8 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Tiger Orc Berserker");
+
         }
 
         private void btnVitas_Click(object sender, EventArgs e)
@@ -365,6 +387,7 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
+            lstChoices.Items.Add("Vitas");
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
