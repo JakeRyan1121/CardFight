@@ -12,7 +12,7 @@ namespace Stephenson.j_Card_Fight
 {
     public partial class Shop : Form
     {
-        Cards[] arrayCards = new Cards[10];
+        public static Cards[] arrayCards = new Cards[10];
         int intCountCards = 0;
 
         string strName = Form1.strName;
@@ -392,7 +392,8 @@ namespace Stephenson.j_Card_Fight
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-
+            Battle form3 = new Battle();
+            form3.ShowDialog();
         }
     }
     public class Cards

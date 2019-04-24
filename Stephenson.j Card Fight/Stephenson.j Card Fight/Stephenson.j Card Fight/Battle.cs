@@ -12,6 +12,8 @@ namespace Stephenson.j_Card_Fight
 {
     public partial class Battle : Form
     {
+        Cards[] arrayCards = Shop.arrayCards;
+
         public Battle()
         {
             InitializeComponent();
