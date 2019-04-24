@@ -26,6 +26,14 @@ namespace Stephenson.j_Card_Fight
             InitializeComponent();
         }
         
+        public void GoldCheck()
+        {
+            if (intGold < 2000)
+            {
+                //vitas
+            }
+        }
+
         private void lblName_Click(object sender, EventArgs e)
         {
 
@@ -43,13 +51,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -67,13 +71,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+             
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -91,13 +91,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -115,13 +111,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -139,13 +131,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -163,13 +151,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -187,13 +171,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -211,13 +191,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -235,13 +211,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -259,13 +231,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -283,13 +251,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -307,13 +271,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -331,13 +291,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -355,13 +311,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -379,13 +331,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -403,13 +351,9 @@ namespace Stephenson.j_Card_Fight
         {
             if (intCountCards >= 10)
             {
-                //they choose the max //use for loop
-                string strDisplay = "Name   Attack   Defence   Cost";
-                for (int j = 0; j < 10; j++)
-                {
-                    strDisplay += Environment.NewLine + arrayCards[intCountCards].Name + " " + arrayCards[intCountCards].Attack + " " + arrayCards[intCountCards].Defence + " " + arrayCards[intCountCards].Cost;
-                }
-                MessageBox.Show(strDisplay);
+                //they choose the max 
+
+                MessageBox.Show("You have picked the maxiumum amount of cards.");
             }
             else
             {
@@ -435,326 +379,6 @@ namespace Stephenson.j_Card_Fight
         public int Defence { get; set; }
         public int Cost { get; set; }
 
-        /*
-        public virtual string GetName()
-        {
-            return "";
-        }
-        public virtual int GetAttack()
-        {
-            return 0;
-        }
-        public virtual int GetHealth()
-        {
-            return 0;
-        }
-        public virtual int GetCost()
-        {
-            return 0;
-        }*/
     }
-    /* public class HumanSwordman : Cards
-     {
-         public override string GetName()
-         {
-             return "Human Swordsman";
-         }
-         public override int GetAttack()
-         {
-             return 2;
-         }
-         public override int GetHealth()
-         {
-             return 3;
-         }
-         public override int GetCost()
-         {
-             return 100;
-         }
-     }
-     public class OrcGrunt : Cards
-     {
-         public override string GetName()
-         {
-             return "Orc Grunt";
-         }
-         public override int GetAttack()
-         {
-             return 3;
-         }
-         public override int GetHealth()
-         {
-             return 4;
-         }
-         public override int GetCost()
-         {
-             return 200;
-         }
-     }
-     public class ElvenArcher : Cards
-     {
-         public override string GetName()
-         {
-             return "Elven Archer";
-         }
-         public override int GetAttack()
-         {
-             return 3;
-         }
-         public override int GetHealth()
-         {
-             return 2;
-         }
-         public override int GetCost()
-         {
-             return 150;
-         }
-     }
-     public class DwarfHammerWarrior : Cards
-     {
-         public override string GetName()
-         {
-             return "Dwarf Hammer Warrior";
-         }
-         public override int GetAttack()
-         {
-             return 3;
-         }
-         public override int GetHealth()
-         {
-             return 5;
-         }
-         public override int GetCost()
-         {
-             return 250;
-         }
-     }
-     public class Knight : Cards
-     {
-         public override string GetName()
-         {
-             return "Knight";
-         }
-         public override int GetAttack()
-         {
-             return 4;
-         }
-         public override int GetHealth()
-         {
-             return 5;
-         }
-         public override int GetCost()
-         {
-             return 300;
-         }
-     }
-     public class OrcBerserker : Cards
-     {
-         public override string GetName()
-         {
-             return "Orc Berserker";
-         }
-         public override int GetAttack()
-         {
-             return 6;
-         }
-         public override int GetHealth()
-         {
-             return 3;
-         }
-         public override int GetCost()
-         {
-             return 300;
-         }
-     }
-     public class BarbarianWarrior : Cards
-     {
-         public override string GetName()
-         {
-             return "Barbarian warrior";
-         }
-         public override int GetAttack()
-         {
-             return 4;
-         }
-         public override int GetHealth()
-         {
-             return 5;
-         }
-         public override int GetCost()
-         {
-             return 300;
-         }
-     }
-     public class DruidBearShaman : Cards
-     {
-         public override string GetName()
-         {
-             return "Druid Bear Shaman";
-         }
-         public override int GetAttack()
-         {
-             return 2;
-         }
-         public override int GetHealth()
-         {
-             return 8;
-         }
-         public override int GetCost()
-         {
-             return 350;
-         }
-     }
-     public class WolfWarrior : Cards
-     {
-         public override string GetName()
-         {
-             return "Wolf Warrior";
-         }
-         public override int GetAttack()
-         {
-             return 7;
-         }
-         public override int GetHealth()
-         {
-             return 3;
-         }
-         public override int GetCost()
-         {
-             return 350;
-         }
-     }
-     public class RockMonster : Cards
-     {
-         public override string GetName()
-         {
-             return "Rock Monster";
-         }
-         public override int GetAttack()
-         {
-             return 1;
-         }
-         public override int GetHealth()
-         {
-             return 9;
-         }
-         public override int GetCost()
-         {
-             return 350;
-         }
-     }
-     public class Paladin : Cards
-     {
-         public override string GetName()
-         {
-             return "Paladin";
-         }
-         public override int GetAttack()
-         {
-             return 6;
-         }
-         public override int GetHealth()
-         {
-             return 7;
-         }
-         public override int GetCost()
-         {
-             return 450;
-         }
-     }
-     public class OrcCrusader : Cards
-     {
-         public override string GetName()
-         {
-             return "Orc Crusader";
-         }
-         public override int GetAttack()
-         {
-             return 8;
-         }
-         public override int GetHealth()
-         {
-             return 5;
-         }
-         public override int GetCost()
-         {
-             return 450;
-         }
-     }
-     public class TheOldGuard : Cards
-     {
-         public override string GetName()
-         {
-             return "The Old Guard";
-         }
-         public override int GetAttack()
-         {
-             return 8;
-         }
-         public override int GetHealth()
-         {
-             return 8;
-         }
-         public override int GetCost()
-         {
-             return 500;
-         }
-     }
-     public class TigerOrcBerserker : Cards
-     {
-         public override string GetName()
-         {
-             return "Tiger Orc Berserker";
-         }
-         public override int GetAttack()
-         {
-             return 9;
-         }
-         public override int GetHealth()
-         {
-             return 8;
-         }
-         public override int GetCost()
-         {
-             return 550;
-         }
-     }
-     public class Vitas : Cards
-     {
-         public override string GetName()
-         {
-             return "Vitas";
-         }
-         public override int GetAttack()
-         {
-             return 12;
-         }
-         public override int GetHealth()
-         {
-             return 12;
-         }
-         public override int GetCost()
-         {
-             return 2000;
-         }
-     }
-     public class Extra : Cards
-     {
-         public override string GetName()
-         {
-             return "Extra";
-         }
-         public override int GetAttack()
-         {
-             return 0;
-         }
-         public override int GetHealth()
-         {
-             return 1;
-         }
-         public override int GetCost()
-         {
-             return 5;
-         }
-     }*/
+    
 }
