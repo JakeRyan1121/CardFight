@@ -25,12 +25,61 @@ namespace Stephenson.j_Card_Fight
         {
             InitializeComponent();
         }
-        
+
         public void GoldCheck()
         {
             if (intGold < 2000)
             {
-                //vitas
+                btnVitas.Enabled = false;
+            }
+            if (intGold < 550)
+            {
+                btnTigerOrc.Enabled = false;
+            }
+            if (intGold < 500)
+            {
+                btnTheOldGuard.Enabled = false;
+
+            }
+            if (intGold < 450)
+            {
+                btnOrcCrusader.Enabled = false;
+                btnPaladin.Enabled = false;
+
+            }
+            if (intGold < 350)
+            {
+                btnRockMonster.Enabled = false;
+                btnWolfWarrior.Enabled = false;
+                btnDruidBear.Enabled = false;
+
+            }
+            if (intGold < 300)
+            {
+                btnBarbarianWarrior.Enabled = false;
+                btnOrcBerserker.Enabled = false;
+                btnKnight.Enabled = false;
+
+            }
+            if (intGold < 250)
+            {
+                btnDwarfHammer.Enabled = false;
+            }
+            if (intGold < 200)
+            {
+                btnOrcGrunt.Enabled = false;
+            }
+            if (intGold < 150)
+            {
+                btnElvenArcher.Enabled = false;
+            }
+            if (intGold < 100)
+            {
+                btnHumanSwardsman.Enabled = false;
+            }
+            if (intGold < 5)
+            {
+                btnExtra.Enabled = false;
             }
         }
 
@@ -45,6 +94,7 @@ namespace Stephenson.j_Card_Fight
             {
                 arrayCards[j] = new Cards();
             }
+            GoldCheck();
         }
 
         private void btnExtra_Click(object sender, EventArgs e)
@@ -65,7 +115,9 @@ namespace Stephenson.j_Card_Fight
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Extra");
+            lstChoices.Items.Add("Extra");//put in else
+            intGold = intGold - 5;
+            GoldCheck();
 
         }
 
@@ -88,6 +140,8 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Human Swordsman");
+            intGold = intGold - 100;
+            GoldCheck();
 
         }
 
@@ -110,6 +164,8 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Elven Archer");
+            intGold = intGold - 150;
+            GoldCheck();
 
         }
 
@@ -132,6 +188,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Orc Grunt");
+            intGold = intGold - 200;
+            GoldCheck();
+
         }
 
         private void btnDwarfHammer_Click(object sender, EventArgs e)
@@ -153,6 +212,8 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Dwarf Hammer Warrior");
+            intGold = intGold - 250;
+            GoldCheck();
 
         }
 
@@ -175,6 +236,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Knight");
+            intGold = intGold - 300;
+            GoldCheck();
+
         }
 
         private void btnOrcBerserker_Click(object sender, EventArgs e)
@@ -196,6 +260,8 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Orc Berserker");
+            intGold = intGold - 300;
+            GoldCheck();
 
         }
 
@@ -218,6 +284,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Barbarian Warrior");
+            intGold = intGold - 300;
+            GoldCheck();
+
         }
 
         private void btnDruidBear_Click(object sender, EventArgs e)
@@ -239,6 +308,8 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Druid Bear Shaman");
+            intGold = intGold - 350;
+            GoldCheck();
 
         }
 
@@ -261,6 +332,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Wolf Warrior");
+            intGold = intGold - 350;
+            GoldCheck();
+
         }
 
         private void btnRockMonster_Click(object sender, EventArgs e)
@@ -282,6 +356,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Rock Monster");
+            intGold = intGold - 350;
+            GoldCheck();
+
         }
 
         private void btnPaladin_Click(object sender, EventArgs e)
@@ -303,6 +380,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Paladin");
+            intGold = intGold - 450;
+            GoldCheck();
+
         }
 
         private void btnOrcCrusader_Click(object sender, EventArgs e)
@@ -324,6 +404,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Orc Crusader");
+            intGold = intGold - 450;
+            GoldCheck();
+
         }
 
         private void btnTheOldGuard_Click(object sender, EventArgs e)
@@ -345,6 +428,9 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("The Old Guard");
+            intGold = intGold - 500;
+            GoldCheck();
+
         }
 
         private void btnTigerOrc_Click(object sender, EventArgs e)
@@ -366,6 +452,8 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Tiger Orc Berserker");
+            intGold = intGold - 550;
+            GoldCheck();
 
         }
 
@@ -388,12 +476,16 @@ namespace Stephenson.j_Card_Fight
             }
             intCountCards++;
             lstChoices.Items.Add("Vitas");
+            intGold = intGold - 2000;
+            GoldCheck();
+
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             Battle form3 = new Battle();
             form3.ShowDialog();
+            this.Hide();
         }
     }
     public class Cards
