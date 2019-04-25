@@ -14,7 +14,7 @@ namespace Stephenson.j_Card_Fight
     {
         Cards[] arrayCards = Shop.arrayCards;
         Cards[] arrayBD = new Cards[10];
-
+        int intSelectedCard = 0;
 
         public Battle()
         {
@@ -47,10 +47,6 @@ namespace Stephenson.j_Card_Fight
         }
 
 
-        private void btnSlot1_Click(object sender, EventArgs e)
-        {
-
-        }
         public void BattleTest()
         {
             arrayCards[0].Defence = arrayCards[0].Defence - arrayBD[0].Attack;
@@ -61,5 +57,122 @@ namespace Stephenson.j_Card_Fight
 
         }
 
+        public void HandToSlot()
+        {
+            
+        }
+
+        private void btnSlot1_Click(object sender, EventArgs e)
+        {
+                  
+            if (intSelectedCard == 1)
+            {
+                btnSlot1.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot1.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot1.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot1.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot1.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot1.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot1.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot1.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot1.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot1.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot2_Click(object sender, EventArgs e)
+        {
+            HandToSlot();
+        }
+
+        private void btnHand1_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 1;
+       
+        }
+
+        private void btnHand2_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 2;
+        }
+
+        private void btnHand3_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 3;
+        }
+
+        private void btnHand4_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 4;
+        }
+
+        private void btnHand5_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 5;
+        }
+
+        private void btnHand6_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 6;
+        }
+
+        private void btnHand7_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 7;
+        }
+
+        private void btnHand8_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 8;
+        }
+
+        private void btnHand9_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 9;
+        }
+
+        private void btnHand10_Click(object sender, EventArgs e)
+        {
+            intSelectedCard = 10;
+        }
+
+        
     }
 }
