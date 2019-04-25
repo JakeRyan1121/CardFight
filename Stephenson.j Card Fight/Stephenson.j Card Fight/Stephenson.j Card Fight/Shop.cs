@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Stephenson.j_Card_Fight
 {
@@ -17,9 +18,8 @@ namespace Stephenson.j_Card_Fight
 
         string strName = Form1.strName;
         int intGold = Form1.intGold;
+        static int intGoldCopy = Form1.intGold;
 
-        //lblName.Text = strName;
-        //lblGold.Text = Convert.ToString(intGold);
 
         public Shop()
         {
@@ -75,12 +75,13 @@ namespace Stephenson.j_Card_Fight
             }
             if (intGold < 100)
             {
-                btnHumanSwardsman.Enabled = false;
+                btnHumanSwordsman.Enabled = false;
             }
             if (intGold < 5)
             {
                 btnExtra.Enabled = false;
             }
+            lblGold.Text = Convert.ToString(intGold);
         }
 
         private void lblName_Click(object sender, EventArgs e)
@@ -90,6 +91,9 @@ namespace Stephenson.j_Card_Fight
 
         private void Shop_Load(object sender, EventArgs e)
         {
+            lblName.Text = strName;
+            lblGold.Text = Convert.ToString(intGold);
+
             for (int j = 0; j < 10; j++)
             {
                 arrayCards[j] = new Cards();
@@ -111,11 +115,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 0;
                 arrayCards[intCountCards].Defence = 1;
                 arrayCards[intCountCards].Cost = 5;
-
+                lstChoices.Items.Add("Extra");//put in else
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Extra");//put in else
+           
             intGold = intGold - 5;
             GoldCheck();
 
@@ -135,11 +139,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 2;
                 arrayCards[intCountCards].Defence = 3;
                 arrayCards[intCountCards].Cost = 100;
-
+                lstChoices.Items.Add("Human Swordsman");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Human Swordsman");
+            
             intGold = intGold - 100;
             GoldCheck();
 
@@ -159,11 +163,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 3;
                 arrayCards[intCountCards].Defence = 2;
                 arrayCards[intCountCards].Cost = 150;
-
+                lstChoices.Items.Add("Elven Archer");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Elven Archer");
+            
             intGold = intGold - 150;
             GoldCheck();
 
@@ -183,11 +187,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 3;
                 arrayCards[intCountCards].Defence = 4;
                 arrayCards[intCountCards].Cost = 200;
-
+                lstChoices.Items.Add("Orc Grunt");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Orc Grunt");
+            
             intGold = intGold - 200;
             GoldCheck();
 
@@ -207,11 +211,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 3;
                 arrayCards[intCountCards].Defence = 5;
                 arrayCards[intCountCards].Cost = 250;
-
+                lstChoices.Items.Add("Dwarf Hammer Warrior");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Dwarf Hammer Warrior");
+            
             intGold = intGold - 250;
             GoldCheck();
 
@@ -231,11 +235,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 4;
                 arrayCards[intCountCards].Defence = 5;
                 arrayCards[intCountCards].Cost = 300;
-
+                lstChoices.Items.Add("Knight");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Knight");
+            
             intGold = intGold - 300;
             GoldCheck();
 
@@ -255,11 +259,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 6;
                 arrayCards[intCountCards].Defence = 3;
                 arrayCards[intCountCards].Cost = 300;
-
+                lstChoices.Items.Add("Orc Berserker");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Orc Berserker");
+            
             intGold = intGold - 300;
             GoldCheck();
 
@@ -279,11 +283,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 4;
                 arrayCards[intCountCards].Defence = 5;
                 arrayCards[intCountCards].Cost = 300;
-
+                lstChoices.Items.Add("Barbarian Warrior");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Barbarian Warrior");
+            
             intGold = intGold - 300;
             GoldCheck();
 
@@ -303,11 +307,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 2;
                 arrayCards[intCountCards].Defence = 8;
                 arrayCards[intCountCards].Cost = 350;
-
+                lstChoices.Items.Add("Druid Bear Shaman");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Druid Bear Shaman");
+            
             intGold = intGold - 350;
             GoldCheck();
 
@@ -327,11 +331,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 7;
                 arrayCards[intCountCards].Defence = 3;
                 arrayCards[intCountCards].Cost = 350;
-
+                lstChoices.Items.Add("Wolf Warrior");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Wolf Warrior");
+            
             intGold = intGold - 350;
             GoldCheck();
 
@@ -351,11 +355,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 1;
                 arrayCards[intCountCards].Defence = 9;
                 arrayCards[intCountCards].Cost = 350;
-
+                lstChoices.Items.Add("Rock Monster");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Rock Monster");
+            
             intGold = intGold - 350;
             GoldCheck();
 
@@ -375,11 +379,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 6;
                 arrayCards[intCountCards].Defence = 7;
                 arrayCards[intCountCards].Cost = 450;
-
+                lstChoices.Items.Add("Paladin");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Paladin");
+            
             intGold = intGold - 450;
             GoldCheck();
 
@@ -399,11 +403,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 8;
                 arrayCards[intCountCards].Defence = 5;
                 arrayCards[intCountCards].Cost = 450;
-
+                lstChoices.Items.Add("Orc Crusader");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Orc Crusader");
+            
             intGold = intGold - 450;
             GoldCheck();
 
@@ -423,11 +427,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 8;
                 arrayCards[intCountCards].Defence = 8;
                 arrayCards[intCountCards].Cost = 500;
-
+                lstChoices.Items.Add("The Old Guard");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("The Old Guard");
+            
             intGold = intGold - 500;
             GoldCheck();
 
@@ -447,11 +451,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 9;
                 arrayCards[intCountCards].Defence = 8;
                 arrayCards[intCountCards].Cost = 550;
-
+                lstChoices.Items.Add("Tiger Orc Berserker");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Tiger Orc Berserker");
+            
             intGold = intGold - 550;
             GoldCheck();
 
@@ -471,11 +475,11 @@ namespace Stephenson.j_Card_Fight
                 arrayCards[intCountCards].Attack = 12;
                 arrayCards[intCountCards].Defence = 12;
                 arrayCards[intCountCards].Cost = 2000;
-
+                lstChoices.Items.Add("Vitas");
                 //add to array
             }
             intCountCards++;
-            lstChoices.Items.Add("Vitas");
+            
             intGold = intGold - 2000;
             GoldCheck();
 
@@ -483,9 +487,40 @@ namespace Stephenson.j_Card_Fight
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Battle form3 = new Battle();
             form3.ShowDialog();
-            this.Hide();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            btnExtra.Enabled = true;                   //Re enables all buttons
+            btnHumanSwordsman.Enabled = true;
+            btnDruidBear.Enabled = true;
+            btnDwarfHammer.Enabled = true;
+            btnBarbarianWarrior.Enabled = true;
+            btnElvenArcher.Enabled = true;
+            btnKnight.Enabled = true;
+            btnOrcBerserker.Enabled = true;
+            btnOrcCrusader.Enabled = true;
+            btnOrcGrunt.Enabled = true;
+            btnPaladin.Enabled = true;
+            btnRockMonster.Enabled = true;
+            btnTheOldGuard.Enabled = true;
+            btnWolfWarrior.Enabled = true;
+            btnVitas.Enabled = true;
+            btnTigerOrc.Enabled = true;
+
+            intGold = intGoldCopy;
+            Array.Clear(arrayCards, 0, 9);
+            lstChoices.Items.Clear();
+            intCountCards = 0;
+            GoldCheck();
+            for (int j = 0; j < 10; j++)
+            {
+                arrayCards[j] = new Cards();
+            }
+
         }
     }
     public class Cards

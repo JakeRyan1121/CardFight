@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnHumanSwardsman = new System.Windows.Forms.Button();
+            this.btnHumanSwordsman = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblGold = new System.Windows.Forms.Label();
@@ -49,26 +49,27 @@
             this.btnExtra = new System.Windows.Forms.Button();
             this.lstChoices = new System.Windows.Forms.ListBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnHumanSwardsman
+            // btnHumanSwordsman
             // 
-            this.btnHumanSwardsman.Location = new System.Drawing.Point(172, 84);
-            this.btnHumanSwardsman.Name = "btnHumanSwardsman";
-            this.btnHumanSwardsman.Size = new System.Drawing.Size(81, 75);
-            this.btnHumanSwardsman.TabIndex = 0;
-            this.btnHumanSwardsman.Text = "Human Swordsman\r\nHealth – 3\r\nAttack – 2\r\nCost – 100";
-            this.btnHumanSwardsman.UseVisualStyleBackColor = true;
-            this.btnHumanSwardsman.Click += new System.EventHandler(this.btnHumanSwordsman_Click);
+            this.btnHumanSwordsman.Location = new System.Drawing.Point(172, 84);
+            this.btnHumanSwordsman.Name = "btnHumanSwordsman";
+            this.btnHumanSwordsman.Size = new System.Drawing.Size(81, 75);
+            this.btnHumanSwordsman.TabIndex = 0;
+            this.btnHumanSwordsman.Text = "Human Swordsman\r\nHealth – 3\r\nAttack – 2\r\nCost – 100";
+            this.btnHumanSwordsman.UseVisualStyleBackColor = true;
+            this.btnHumanSwordsman.Click += new System.EventHandler(this.btnHumanSwordsman_Click);
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(13, 13);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(142, 13);
+            this.lblName.Size = new System.Drawing.Size(42, 13);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "This is were the name will be";
+            this.lblName.Text = "Player1";
             this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // label2
@@ -83,11 +84,11 @@
             // lblGold
             // 
             this.lblGold.AutoSize = true;
-            this.lblGold.Location = new System.Drawing.Point(55, 42);
+            this.lblGold.Location = new System.Drawing.Point(41, 42);
             this.lblGold.Name = "lblGold";
-            this.lblGold.Size = new System.Drawing.Size(132, 13);
+            this.lblGold.Size = new System.Drawing.Size(29, 13);
             this.lblGold.TabIndex = 3;
-            this.lblGold.Text = "this is were the gold will be";
+            this.lblGold.Text = "Gold";
             // 
             // btnElvenArcher
             // 
@@ -242,7 +243,7 @@
             // lstChoices
             // 
             this.lstChoices.FormattingEnabled = true;
-            this.lstChoices.Location = new System.Drawing.Point(510, 47);
+            this.lstChoices.Location = new System.Drawing.Point(510, 84);
             this.lstChoices.Name = "lstChoices";
             this.lstChoices.Size = new System.Drawing.Size(229, 264);
             this.lstChoices.TabIndex = 19;
@@ -257,11 +258,22 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(510, 379);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 21;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // Shop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.lstChoices);
             this.Controls.Add(this.btnTheOldGuard);
@@ -282,7 +294,7 @@
             this.Controls.Add(this.lblGold);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.btnHumanSwardsman);
+            this.Controls.Add(this.btnHumanSwordsman);
             this.Name = "Shop";
             this.Text = "Shop";
             this.Load += new System.EventHandler(this.Shop_Load);
@@ -293,7 +305,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnHumanSwardsman;
+        private System.Windows.Forms.Button btnHumanSwordsman;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblGold;
@@ -314,5 +326,6 @@
         private System.Windows.Forms.Button btnExtra;
         private System.Windows.Forms.ListBox lstChoices;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnReset;
     }
 }
