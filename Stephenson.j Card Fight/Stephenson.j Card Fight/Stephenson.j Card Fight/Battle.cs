@@ -15,6 +15,7 @@ namespace Stephenson.j_Card_Fight
         Cards[] arrayCards = Shop.arrayCards;
         Cards[] arrayBD = new Cards[10];
         int intSelectedCard = 0;
+        int intSelectedSlot = 0;
 
         public Battle()
         {
@@ -63,7 +64,8 @@ namespace Stephenson.j_Card_Fight
             {
                 if (intSelectedCard == 1)
                 {
-                    btnSlot1.Text = btnHand1.Text;
+                   // btnSlot1.Text = btnHand1.Text;
+                    btnSlot1.Text = arrayCards[0].Name + "\n" + "Health: " + arrayCards[0].Defence + "\n" + "Attack: " + arrayCards[0].Attack;
                     btnHand1.Enabled = false;
                 }
                 if (intSelectedCard == 2)
@@ -112,6 +114,7 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 1;
             }                   
 
         }
@@ -171,8 +174,10 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 2;
+
             }
-                
+
 
         }
 
@@ -231,9 +236,11 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 3;
+
             }
 
-                
+
 
         }
 
@@ -292,8 +299,10 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 4;
+
             }
-                
+
 
         }
 
@@ -352,8 +361,10 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 5;
+
             }
-               
+
 
         }
 
@@ -412,8 +423,9 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 6;
             }
-               
+
 
         }
 
@@ -472,8 +484,9 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 7;
             }
-                
+
 
         }
 
@@ -532,8 +545,10 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 8;
+
             }
-                
+
 
         }
 
@@ -592,8 +607,10 @@ namespace Stephenson.j_Card_Fight
                     btnHand10.Enabled = false;
                 }
                 intSelectedCard = 0;
+                intSelectedSlot = 9;
+
             }
-               
+
 
         }
 
@@ -653,8 +670,10 @@ namespace Stephenson.j_Card_Fight
                 }
 
                 intSelectedCard = 0;
+                intSelectedSlot = 10;
+
             }
-                
+
 
         }
 
@@ -708,6 +727,12 @@ namespace Stephenson.j_Card_Fight
             intSelectedCard = 10;
         }
 
-        
+        private void btnBD1_Click(object sender, EventArgs e)
+        {
+            if (intSelectedSlot == 1)
+            {
+                //BattleTest();
+            }
+        }
     }
 }
