@@ -191,6 +191,7 @@
             this.btnSlot9.TabIndex = 9;
             this.btnSlot9.Text = "9";
             this.btnSlot9.UseVisualStyleBackColor = true;
+            this.btnSlot9.Click += new System.EventHandler(this.btnSlot9_Click);
             // 
             // btnSlot7
             // 
@@ -200,6 +201,7 @@
             this.btnSlot7.TabIndex = 8;
             this.btnSlot7.Text = "7";
             this.btnSlot7.UseVisualStyleBackColor = true;
+            this.btnSlot7.Click += new System.EventHandler(this.btnSlot7_Click);
             // 
             // btnSlot5
             // 
@@ -209,6 +211,7 @@
             this.btnSlot5.TabIndex = 7;
             this.btnSlot5.Text = "5";
             this.btnSlot5.UseVisualStyleBackColor = true;
+            this.btnSlot5.Click += new System.EventHandler(this.btnSlot5_Click);
             // 
             // btnSlot8
             // 
@@ -218,6 +221,7 @@
             this.btnSlot8.TabIndex = 6;
             this.btnSlot8.Text = "8";
             this.btnSlot8.UseVisualStyleBackColor = true;
+            this.btnSlot8.Click += new System.EventHandler(this.btnSlot8_Click);
             // 
             // btnSlot4
             // 
@@ -227,6 +231,7 @@
             this.btnSlot4.TabIndex = 5;
             this.btnSlot4.Text = "4";
             this.btnSlot4.UseVisualStyleBackColor = true;
+            this.btnSlot4.Click += new System.EventHandler(this.btnSlot4_Click);
             // 
             // btnSlot10
             // 
@@ -236,6 +241,7 @@
             this.btnSlot10.TabIndex = 4;
             this.btnSlot10.Text = "10";
             this.btnSlot10.UseVisualStyleBackColor = true;
+            this.btnSlot10.Click += new System.EventHandler(this.btnSlot10_Click);
             // 
             // btnSlot6
             // 
@@ -245,6 +251,7 @@
             this.btnSlot6.TabIndex = 3;
             this.btnSlot6.Text = "6";
             this.btnSlot6.UseVisualStyleBackColor = true;
+            this.btnSlot6.Click += new System.EventHandler(this.btnSlot6_Click);
             // 
             // btnSlot2
             // 
@@ -264,6 +271,7 @@
             this.btnSlot3.TabIndex = 1;
             this.btnSlot3.Text = "3";
             this.btnSlot3.UseVisualStyleBackColor = true;
+            this.btnSlot3.Click += new System.EventHandler(this.btnSlot3_Click);
             // 
             // btnSlot1
             // 

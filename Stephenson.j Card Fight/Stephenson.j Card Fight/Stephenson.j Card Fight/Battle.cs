@@ -119,13 +119,493 @@ namespace Stephenson.j_Card_Fight
 
         private void btnSlot2_Click(object sender, EventArgs e)
         {
-            HandToSlot();
+            if (intSelectedCard == 1)
+            {
+                btnSlot2.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot2.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot2.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot2.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot2.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot2.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot2.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot2.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot2.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot2.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
         }
 
+        private void btnSlot3_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot3.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot3.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot3.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot3.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot3.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot3.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot3.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot3.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot3.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot3.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot4_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot4.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot4.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot4.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot4.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot4.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot4.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot4.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot4.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot4.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot4.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot5_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot5.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot5.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot5.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot5.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot5.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot5.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot5.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot5.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot5.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot5.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot6_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot6.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot6.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot6.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot6.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot6.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot6.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot6.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot6.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot6.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot6.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot7_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot7.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot7.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot7.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot7.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot7.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot7.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot7.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot7.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot7.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot7.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot8_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot8.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot8.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot8.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot8.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot8.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot8.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot8.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot8.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot8.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot8.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot9_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot9.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot9.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot9.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot9.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot9.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot9.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot9.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot9.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot9.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot9.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+
+        private void btnSlot10_Click(object sender, EventArgs e)
+        {
+            if (intSelectedCard == 1)
+            {
+                btnSlot10.Text = btnHand1.Text;
+                btnHand1.Enabled = false;
+            }
+            if (intSelectedCard == 2)
+            {
+                btnSlot10.Text = btnHand2.Text;
+                btnHand2.Enabled = false;
+            }
+            if (intSelectedCard == 3)
+            {
+                btnSlot10.Text = btnHand3.Text;
+                btnHand3.Enabled = false;
+            }
+            if (intSelectedCard == 4)
+            {
+                btnSlot10.Text = btnHand4.Text;
+                btnHand4.Enabled = false;
+            }
+            if (intSelectedCard == 5)
+            {
+                btnSlot10.Text = btnHand5.Text;
+                btnHand5.Enabled = false;
+            }
+            if (intSelectedCard == 6)
+            {
+                btnSlot10.Text = btnHand6.Text;
+                btnHand6.Enabled = false;
+            }
+            if (intSelectedCard == 7)
+            {
+                btnSlot10.Text = btnHand7.Text;
+                btnHand7.Enabled = false;
+            }
+            if (intSelectedCard == 8)
+            {
+                btnSlot10.Text = btnHand8.Text;
+                btnHand8.Enabled = false;
+            }
+            if (intSelectedCard == 9)
+            {
+                btnSlot10.Text = btnHand9.Text;
+                btnHand9.Enabled = false;
+            }
+            if (intSelectedCard == 10)
+            {
+                btnSlot10.Text = btnHand10.Text;
+                btnHand10.Enabled = false;
+            }
+        }
+  
         private void btnHand1_Click(object sender, EventArgs e)
         {
-            intSelectedCard = 1;
-       
+            intSelectedCard = 1; 
         }
 
         private void btnHand2_Click(object sender, EventArgs e)
