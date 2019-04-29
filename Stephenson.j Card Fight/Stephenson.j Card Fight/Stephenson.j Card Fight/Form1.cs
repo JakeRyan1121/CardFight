@@ -62,11 +62,9 @@ namespace Stephenson.j_Card_Fight
                 }
                 else
                 {
-                    
                     this.Hide();
                     Shop form2 = new Shop();
                     form2.ShowDialog();
-
                 }
             }
             blnCorrect = true; 
