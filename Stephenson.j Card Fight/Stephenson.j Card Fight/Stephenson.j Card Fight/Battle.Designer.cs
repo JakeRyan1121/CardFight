@@ -83,6 +83,7 @@
             this.btnBD10.TabIndex = 1;
             this.btnBD10.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD10.UseVisualStyleBackColor = true;
+            this.btnBD10.Click += new System.EventHandler(this.btnBD10_Click);
             // 
             // btnBD9
             // 
@@ -92,6 +93,7 @@
             this.btnBD9.TabIndex = 2;
             this.btnBD9.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD9.UseVisualStyleBackColor = true;
+            this.btnBD9.Click += new System.EventHandler(this.btnBD9_Click);
             // 
             // btnBD8
             // 
@@ -101,6 +103,7 @@
             this.btnBD8.TabIndex = 3;
             this.btnBD8.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD8.UseVisualStyleBackColor = true;
+            this.btnBD8.Click += new System.EventHandler(this.btnBD8_Click);
             // 
             // btnBD7
             // 
@@ -110,6 +113,7 @@
             this.btnBD7.TabIndex = 4;
             this.btnBD7.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD7.UseVisualStyleBackColor = true;
+            this.btnBD7.Click += new System.EventHandler(this.btnBD7_Click);
             // 
             // btnBD6
             // 
@@ -119,6 +123,7 @@
             this.btnBD6.TabIndex = 5;
             this.btnBD6.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD6.UseVisualStyleBackColor = true;
+            this.btnBD6.Click += new System.EventHandler(this.btnBD6_Click);
             // 
             // btnBD5
             // 
@@ -128,6 +133,7 @@
             this.btnBD5.TabIndex = 6;
             this.btnBD5.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD5.UseVisualStyleBackColor = true;
+            this.btnBD5.Click += new System.EventHandler(this.btnBD5_Click);
             // 
             // btnBD4
             // 
@@ -137,6 +143,7 @@
             this.btnBD4.TabIndex = 7;
             this.btnBD4.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD4.UseVisualStyleBackColor = true;
+            this.btnBD4.Click += new System.EventHandler(this.btnBD4_Click);
             // 
             // btnBD3
             // 
@@ -146,6 +153,7 @@
             this.btnBD3.TabIndex = 8;
             this.btnBD3.Text = "Battle Dummy\r\nHealth: 1\r\nAttack: 1";
             this.btnBD3.UseVisualStyleBackColor = true;
+            this.btnBD3.Click += new System.EventHandler(this.btnBD3_Click);
             // 
             // btnBD2
             // 
@@ -193,7 +201,6 @@
             this.btnSlot9.TabIndex = 9;
             this.btnSlot9.Text = "9";
             this.btnSlot9.UseVisualStyleBackColor = true;
-            this.btnSlot9.Click += new System.EventHandler(this.btnSlot9_Click);
             // 
             // btnSlot7
             // 
@@ -203,7 +210,6 @@
             this.btnSlot7.TabIndex = 8;
             this.btnSlot7.Text = "7";
             this.btnSlot7.UseVisualStyleBackColor = true;
-            this.btnSlot7.Click += new System.EventHandler(this.btnSlot7_Click);
             // 
             // btnSlot5
             // 
@@ -213,7 +219,6 @@
             this.btnSlot5.TabIndex = 7;
             this.btnSlot5.Text = "5";
             this.btnSlot5.UseVisualStyleBackColor = true;
-            this.btnSlot5.Click += new System.EventHandler(this.btnSlot5_Click);
             // 
             // btnSlot8
             // 
@@ -223,7 +228,6 @@
             this.btnSlot8.TabIndex = 6;
             this.btnSlot8.Text = "8";
             this.btnSlot8.UseVisualStyleBackColor = true;
-            this.btnSlot8.Click += new System.EventHandler(this.btnSlot8_Click);
             // 
             // btnSlot4
             // 
@@ -233,7 +237,6 @@
             this.btnSlot4.TabIndex = 5;
             this.btnSlot4.Text = "4";
             this.btnSlot4.UseVisualStyleBackColor = true;
-            this.btnSlot4.Click += new System.EventHandler(this.btnSlot4_Click);
             // 
             // btnSlot10
             // 
@@ -243,7 +246,6 @@
             this.btnSlot10.TabIndex = 4;
             this.btnSlot10.Text = "10";
             this.btnSlot10.UseVisualStyleBackColor = true;
-            this.btnSlot10.Click += new System.EventHandler(this.btnSlot10_Click);
             // 
             // btnSlot6
             // 
@@ -253,7 +255,6 @@
             this.btnSlot6.TabIndex = 3;
             this.btnSlot6.Text = "6";
             this.btnSlot6.UseVisualStyleBackColor = true;
-            this.btnSlot6.Click += new System.EventHandler(this.btnSlot6_Click);
             // 
             // btnSlot2
             // 
@@ -263,7 +264,6 @@
             this.btnSlot2.TabIndex = 2;
             this.btnSlot2.Text = "2";
             this.btnSlot2.UseVisualStyleBackColor = true;
-            this.btnSlot2.Click += new System.EventHandler(this.btnSlot2_Click);
             // 
             // btnSlot3
             // 
@@ -273,7 +273,6 @@
             this.btnSlot3.TabIndex = 1;
             this.btnSlot3.Text = "3";
             this.btnSlot3.UseVisualStyleBackColor = true;
-            this.btnSlot3.Click += new System.EventHandler(this.btnSlot3_Click);
             // 
             // btnSlot1
             // 
