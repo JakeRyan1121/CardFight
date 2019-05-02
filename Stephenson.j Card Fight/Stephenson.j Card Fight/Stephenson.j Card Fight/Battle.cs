@@ -57,8 +57,6 @@ namespace Stephenson.j_Card_Fight
             arrayCards[intSelectedCard - 1].Defence = arrayCards[intSelectedCard - 1].Defence - arrayBD[intSelectedCard - 1].Attack;
             if (arrayCards[intSelectedCard - 1].Defence <= 0)
             {
-                MessageBox.Show(arrayCards[intSelectedCard - 1].Name + " is dead");
-
                 btnHand1.Enabled = true;
                 btnHand2.Enabled = true;
                 btnHand3.Enabled = true;
@@ -69,10 +67,10 @@ namespace Stephenson.j_Card_Fight
                 btnHand8.Enabled = true;
                 btnHand9.Enabled = true;
                 btnHand10.Enabled = true;
-
+                
                 btnSlot1.Text = "1";
 
-                
+                MessageBox.Show(arrayCards[intSelectedCard - 1].Name + " is dead");
             }
             else
             {
@@ -296,12 +294,12 @@ namespace Stephenson.j_Card_Fight
                 btnBD10.Enabled = false;
             }
 
-            /*
+            
             if (arrayBD[0].Defence <= 0 && arrayBD[1].Defence <= 0 && arrayBD[2].Defence <= 0 && arrayBD[3].Defence <= 0 && arrayBD[4].Defence <= 0 && arrayBD[5].Defence <= 0 && arrayBD[6].Defence <= 0 && arrayBD[7].Defence <= 0 && arrayBD[8].Defence <= 0 && arrayBD[9].Defence <= 0)
             {
-                MessageBox.Show("You win!")
+                MessageBox.Show("You win!");
             }
-            */
+            
         }
          
         private void btnBD1_Click(object sender, EventArgs e)
