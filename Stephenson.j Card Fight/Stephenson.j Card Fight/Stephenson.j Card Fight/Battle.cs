@@ -373,6 +373,9 @@ namespace Stephenson.j_Card_Fight
             BattleDummyKillUs();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

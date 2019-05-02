@@ -33,6 +33,7 @@
             this.txtMoney = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -62,9 +63,10 @@
             // 
             // btnSubmit
             // 
+            this.btnSubmit.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.Location = new System.Drawing.Point(336, 250);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.Size = new System.Drawing.Size(81, 33);
             this.btnSubmit.TabIndex = 10;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -78,18 +80,28 @@
             this.txtName.TabIndex = 11;
             this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Papyrus", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(211, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(369, 100);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Card Fight";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMoney);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -103,6 +115,7 @@
         private System.Windows.Forms.TextBox txtMoney;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label label3;
     }
 }
 
