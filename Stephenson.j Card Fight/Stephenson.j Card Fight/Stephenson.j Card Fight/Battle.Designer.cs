@@ -177,6 +177,7 @@
             // 
             // btnSlot1
             // 
+            this.btnSlot1.Enabled = false;
             this.btnSlot1.Location = new System.Drawing.Point(520, 326);
             this.btnSlot1.Name = "btnSlot1";
             this.btnSlot1.Size = new System.Drawing.Size(86, 68);
@@ -304,7 +305,6 @@
             this.label1.Size = new System.Drawing.Size(232, 100);
             this.label1.TabIndex = 21;
             this.label1.Text = "Battle";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Battle
             // 

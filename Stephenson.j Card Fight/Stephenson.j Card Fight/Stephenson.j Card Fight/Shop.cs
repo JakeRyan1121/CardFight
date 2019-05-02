@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Josh, Wyatt, Jake, Iyan
+//Card Fight
+//Shop Form 
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

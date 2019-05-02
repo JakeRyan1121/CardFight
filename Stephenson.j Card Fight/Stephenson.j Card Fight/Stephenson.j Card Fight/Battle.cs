@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Josh, Wyatt, Jake, Iyan
+//Card Fight
+//Battle Form 
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,8 +18,7 @@ namespace Stephenson.j_Card_Fight
         Cards[] arrayCards = Shop.arrayCards;
         Cards[] arrayBD = new Cards[10];
         int intSelectedCard = 0;
-        int intSelectedSlot = 0;
-        int intSelectedBATTLEDUMMY;
+        int intSelectedBD;
 
         public Battle()
         {
@@ -77,7 +79,47 @@ namespace Stephenson.j_Card_Fight
                 btnSlot1.Text = arrayCards[intSelectedCard - 1].Name + "\n" + "Health: " + arrayCards[intSelectedCard - 1].Defence + "\n" + "Attack: " + arrayCards[intSelectedCard - 1].Attack;
             }
 
-
+            if (arrayCards[0].Defence <= 0)
+            {
+                btnHand1.Enabled = false;
+            }
+            if (arrayCards[1].Defence <= 0)
+            {
+                btnHand2.Enabled = false;
+            }
+            if (arrayCards[2].Defence <= 0)
+            {
+                btnHand3.Enabled = false;
+            }
+            if (arrayCards[3].Defence <= 0)
+            {
+                btnHand4.Enabled = false;
+            }
+            if (arrayCards[4].Defence <= 0)
+            {
+                btnHand5.Enabled = false;
+            }
+            if (arrayCards[5].Defence <= 0)
+            {
+                btnHand6.Enabled = false;
+            }          
+            if (arrayCards[6].Defence <= 0)
+            {
+                btnHand7.Enabled = false;
+            }
+            if (arrayCards[7].Defence <= 0)
+            {
+                btnHand8.Enabled = false;
+            }
+            if (arrayCards[8].Defence <= 0)
+            {
+                btnHand9.Enabled = false;
+            }
+            if (arrayCards[9].Defence <= 0)
+            {
+                btnHand10.Enabled = false;
+            }
+           
         }
 
         private void btnSlot1_Click(object sender, EventArgs e)
@@ -135,10 +177,7 @@ namespace Stephenson.j_Card_Fight
                     btnSlot1.Text = btnHand10.Text;
                     btnHand10.Enabled = false;
                 }
-
-
-                intSelectedSlot = 1;
-
+                
                 btnHand1.Enabled = false;
                 btnHand2.Enabled = false;
                 btnHand3.Enabled = false;
@@ -159,94 +198,104 @@ namespace Stephenson.j_Card_Fight
         private void btnHand1_Click(object sender, EventArgs e)
         {
             intSelectedCard = 1;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand2_Click(object sender, EventArgs e)
         {
             intSelectedCard = 2;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand3_Click(object sender, EventArgs e)
         {
             intSelectedCard = 3;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand4_Click(object sender, EventArgs e)
         {
             intSelectedCard = 4;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand5_Click(object sender, EventArgs e)
         {
             intSelectedCard = 5;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand6_Click(object sender, EventArgs e)
         {
             intSelectedCard = 6;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand7_Click(object sender, EventArgs e)
         {
             intSelectedCard = 7;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand8_Click(object sender, EventArgs e)
         {
             intSelectedCard = 8;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand9_Click(object sender, EventArgs e)
         {
             intSelectedCard = 9;
+            btnSlot1.Enabled = true;
         }
 
         private void btnHand10_Click(object sender, EventArgs e)
         {
             intSelectedCard = 10;
+            btnSlot1.Enabled = true;
         }
 
         public void Fight()
         {
             if (arrayCards[intSelectedCard - 1].Defence > 0)
             {
-                if (intSelectedBATTLEDUMMY == 1)
+                if (intSelectedBD == 1)
                 {
                     arrayBD[0].Defence = arrayBD[0].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 2)
+                else if (intSelectedBD == 2)
                 {
                     arrayBD[1].Defence = arrayBD[1].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 3)
+                else if (intSelectedBD == 3)
                 {
                     arrayBD[2].Defence = arrayBD[2].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 4)
+                else if (intSelectedBD == 4)
                 {
                     arrayBD[3].Defence = arrayBD[3].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 5)
+                else if (intSelectedBD == 5)
                 {
                     arrayBD[4].Defence = arrayBD[4].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 6)
+                else if (intSelectedBD == 6)
                 {
                     arrayBD[5].Defence = arrayBD[5].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 7)
+                else if (intSelectedBD == 7)
                 {
                     arrayBD[6].Defence = arrayBD[6].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 8)
+                else if (intSelectedBD == 8)
                 {
                     arrayBD[7].Defence = arrayBD[7].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 9)
+                else if (intSelectedBD == 9)
                 {
                     arrayBD[8].Defence = arrayBD[8].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
-                else if (intSelectedBATTLEDUMMY == 10)
+                else if (intSelectedBD == 10)
                 {
                     arrayBD[9].Defence = arrayBD[9].Defence - arrayCards[intSelectedCard - 1].Attack;
                 }
@@ -304,7 +353,7 @@ namespace Stephenson.j_Card_Fight
          
         private void btnBD1_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 1;
+            intSelectedBD = 1;
             Fight();
             BattleDummyKillUs();
            
@@ -312,70 +361,66 @@ namespace Stephenson.j_Card_Fight
 
         private void btnBD2_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 2;
+            intSelectedBD = 2;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD3_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 3;
+            intSelectedBD = 3;
             Fight();
             BattleDummyKillUs();
         }
         
         private void btnBD4_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 4;
+            intSelectedBD = 4;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD5_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 5;
+            intSelectedBD = 5;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD6_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 6;
+            intSelectedBD = 6;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD7_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 7;
+            intSelectedBD = 7;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD8_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 8;
+            intSelectedBD = 8;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD9_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 9;
+            intSelectedBD = 9;
             Fight();
             BattleDummyKillUs();
         }
 
         private void btnBD10_Click(object sender, EventArgs e)
         {
-            intSelectedBATTLEDUMMY = 10;
+            intSelectedBD = 10;
             Fight();
             BattleDummyKillUs();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
