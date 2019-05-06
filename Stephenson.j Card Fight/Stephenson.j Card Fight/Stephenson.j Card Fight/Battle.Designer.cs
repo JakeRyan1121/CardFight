@@ -57,7 +57,7 @@
             // 
             // btnBD1
             // 
-            this.btnBD1.Location = new System.Drawing.Point(111, 195);
+            this.btnBD1.Location = new System.Drawing.Point(111, 144);
             this.btnBD1.Name = "btnBD1";
             this.btnBD1.Size = new System.Drawing.Size(86, 54);
             this.btnBD1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // 
             // btnBD10
             // 
-            this.btnBD10.Location = new System.Drawing.Point(939, 195);
+            this.btnBD10.Location = new System.Drawing.Point(939, 144);
             this.btnBD10.Name = "btnBD10";
             this.btnBD10.Size = new System.Drawing.Size(86, 54);
             this.btnBD10.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             // btnBD9
             // 
-            this.btnBD9.Location = new System.Drawing.Point(847, 195);
+            this.btnBD9.Location = new System.Drawing.Point(847, 144);
             this.btnBD9.Name = "btnBD9";
             this.btnBD9.Size = new System.Drawing.Size(86, 54);
             this.btnBD9.TabIndex = 2;
@@ -87,7 +87,7 @@
             // 
             // btnBD8
             // 
-            this.btnBD8.Location = new System.Drawing.Point(755, 195);
+            this.btnBD8.Location = new System.Drawing.Point(755, 144);
             this.btnBD8.Name = "btnBD8";
             this.btnBD8.Size = new System.Drawing.Size(86, 54);
             this.btnBD8.TabIndex = 3;
@@ -97,7 +97,7 @@
             // 
             // btnBD7
             // 
-            this.btnBD7.Location = new System.Drawing.Point(663, 195);
+            this.btnBD7.Location = new System.Drawing.Point(663, 144);
             this.btnBD7.Name = "btnBD7";
             this.btnBD7.Size = new System.Drawing.Size(86, 54);
             this.btnBD7.TabIndex = 4;
@@ -107,7 +107,7 @@
             // 
             // btnBD6
             // 
-            this.btnBD6.Location = new System.Drawing.Point(571, 195);
+            this.btnBD6.Location = new System.Drawing.Point(571, 144);
             this.btnBD6.Name = "btnBD6";
             this.btnBD6.Size = new System.Drawing.Size(86, 54);
             this.btnBD6.TabIndex = 5;
@@ -117,7 +117,7 @@
             // 
             // btnBD5
             // 
-            this.btnBD5.Location = new System.Drawing.Point(479, 195);
+            this.btnBD5.Location = new System.Drawing.Point(479, 144);
             this.btnBD5.Name = "btnBD5";
             this.btnBD5.Size = new System.Drawing.Size(86, 54);
             this.btnBD5.TabIndex = 6;
@@ -127,7 +127,7 @@
             // 
             // btnBD4
             // 
-            this.btnBD4.Location = new System.Drawing.Point(387, 195);
+            this.btnBD4.Location = new System.Drawing.Point(387, 144);
             this.btnBD4.Name = "btnBD4";
             this.btnBD4.Size = new System.Drawing.Size(86, 54);
             this.btnBD4.TabIndex = 7;
@@ -137,7 +137,7 @@
             // 
             // btnBD3
             // 
-            this.btnBD3.Location = new System.Drawing.Point(295, 195);
+            this.btnBD3.Location = new System.Drawing.Point(295, 144);
             this.btnBD3.Name = "btnBD3";
             this.btnBD3.Size = new System.Drawing.Size(86, 54);
             this.btnBD3.TabIndex = 8;
@@ -147,7 +147,7 @@
             // 
             // btnBD2
             // 
-            this.btnBD2.Location = new System.Drawing.Point(203, 195);
+            this.btnBD2.Location = new System.Drawing.Point(203, 144);
             this.btnBD2.Name = "btnBD2";
             this.btnBD2.Size = new System.Drawing.Size(86, 54);
             this.btnBD2.TabIndex = 9;
@@ -158,7 +158,7 @@
             // groupBox1
             // 
             this.groupBox1.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(28, 160);
+            this.groupBox1.Location = new System.Drawing.Point(28, 109);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1080, 110);
             this.groupBox1.TabIndex = 10;
@@ -168,7 +168,7 @@
             // groupBox2
             // 
             this.groupBox2.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(28, 296);
+            this.groupBox2.Location = new System.Drawing.Point(28, 238);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1080, 118);
             this.groupBox2.TabIndex = 11;
@@ -178,7 +178,7 @@
             // btnSlot1
             // 
             this.btnSlot1.Enabled = false;
-            this.btnSlot1.Location = new System.Drawing.Point(520, 326);
+            this.btnSlot1.Location = new System.Drawing.Point(520, 268);
             this.btnSlot1.Name = "btnSlot1";
             this.btnSlot1.Size = new System.Drawing.Size(86, 68);
             this.btnSlot1.TabIndex = 0;
@@ -300,7 +300,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Papyrus", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(452, 26);
+            this.label1.Location = new System.Drawing.Point(452, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(232, 100);
             this.label1.TabIndex = 21;
@@ -310,6 +310,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(202)))), ((int)(((byte)(132)))));
             this.ClientSize = new System.Drawing.Size(1137, 552);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnHand9);

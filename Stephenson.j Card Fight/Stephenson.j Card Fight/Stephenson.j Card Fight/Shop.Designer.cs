@@ -59,7 +59,7 @@
             this.btnHumanSwordsman.Name = "btnHumanSwordsman";
             this.btnHumanSwordsman.Size = new System.Drawing.Size(81, 75);
             this.btnHumanSwordsman.TabIndex = 0;
-            this.btnHumanSwordsman.Text = "Human Swordsman\r\nHealth – 3\r\nAttack – 2\r\nCost – 100";
+            this.btnHumanSwordsman.Text = "Human Swordsman\r\nHealth: 3\r\nAttack: 2\r\nCost: 100";
             this.btnHumanSwordsman.UseVisualStyleBackColor = true;
             this.btnHumanSwordsman.Click += new System.EventHandler(this.btnHumanSwordsman_Click);
             // 
@@ -100,7 +100,7 @@
             this.btnElvenArcher.Name = "btnElvenArcher";
             this.btnElvenArcher.Size = new System.Drawing.Size(81, 75);
             this.btnElvenArcher.TabIndex = 4;
-            this.btnElvenArcher.Text = "Elven Archer\r\nHealth – 2\r\nAttack – 3\r\nCost – 150";
+            this.btnElvenArcher.Text = "Elven Archer\r\nHealth: 2\r\nAttack: 3\r\nCost: 150";
             this.btnElvenArcher.UseVisualStyleBackColor = true;
             this.btnElvenArcher.Click += new System.EventHandler(this.btnElvenArcher_Click);
             // 
@@ -110,7 +110,7 @@
             this.btnOrcGrunt.Name = "btnOrcGrunt";
             this.btnOrcGrunt.Size = new System.Drawing.Size(81, 75);
             this.btnOrcGrunt.TabIndex = 5;
-            this.btnOrcGrunt.Text = "Orc Grunt\r\nHealth – 4\r\nAttack – 3\r\nCost – 200";
+            this.btnOrcGrunt.Text = "Orc Grunt\r\nHealth: 4\r\nAttack: 3\r\nCost: 200";
             this.btnOrcGrunt.UseVisualStyleBackColor = true;
             this.btnOrcGrunt.Click += new System.EventHandler(this.btnOrcGrunt_Click);
             // 
@@ -120,7 +120,7 @@
             this.btnDwarfHammer.Name = "btnDwarfHammer";
             this.btnDwarfHammer.Size = new System.Drawing.Size(81, 75);
             this.btnDwarfHammer.TabIndex = 6;
-            this.btnDwarfHammer.Text = "Dwarf Hammer W.\r\nHealth – 5\r\nAttack – 3\r\nCost – 250";
+            this.btnDwarfHammer.Text = "Dwarf Hammer W.\r\nHealth: 5\r\nAttack: 3\r\nCost: 250";
             this.btnDwarfHammer.UseVisualStyleBackColor = true;
             this.btnDwarfHammer.Click += new System.EventHandler(this.btnDwarfHammer_Click);
             // 
@@ -130,7 +130,7 @@
             this.btnKnight.Name = "btnKnight";
             this.btnKnight.Size = new System.Drawing.Size(81, 75);
             this.btnKnight.TabIndex = 10;
-            this.btnKnight.Text = "Knight\r\nHealth – 5\r\nAttack – 4\r\nCost – 300";
+            this.btnKnight.Text = "Knight\r\nHealth: 5\r\nAttack: 4\r\nCost: 300";
             this.btnKnight.UseVisualStyleBackColor = true;
             this.btnKnight.Click += new System.EventHandler(this.btnKnight_Click);
             // 
@@ -140,7 +140,7 @@
             this.btnOrcBerserker.Name = "btnOrcBerserker";
             this.btnOrcBerserker.Size = new System.Drawing.Size(81, 75);
             this.btnOrcBerserker.TabIndex = 9;
-            this.btnOrcBerserker.Text = "Orc Berserker\r\nHealth – 3\r\nAttack – 6\r\nCost – 300";
+            this.btnOrcBerserker.Text = "Orc Berserker\r\nHealth: 3\r\nAttack: 6\r\nCost: 300";
             this.btnOrcBerserker.UseVisualStyleBackColor = true;
             this.btnOrcBerserker.Click += new System.EventHandler(this.btnOrcBerserker_Click);
             // 
@@ -150,7 +150,7 @@
             this.btnBarbarianWarrior.Name = "btnBarbarianWarrior";
             this.btnBarbarianWarrior.Size = new System.Drawing.Size(81, 75);
             this.btnBarbarianWarrior.TabIndex = 8;
-            this.btnBarbarianWarrior.Text = "Barbarian Warrior\r\nHealth – 5\r\nAttack – 4\r\nCost – 300";
+            this.btnBarbarianWarrior.Text = "Barbarian Warrior\r\nHealth: 5\r\nAttack: 4\r\nCost: 300";
             this.btnBarbarianWarrior.UseVisualStyleBackColor = true;
             this.btnBarbarianWarrior.Click += new System.EventHandler(this.btnBarbarianWarrior_Click);
             // 
@@ -160,7 +160,7 @@
             this.btnDruidBear.Name = "btnDruidBear";
             this.btnDruidBear.Size = new System.Drawing.Size(81, 75);
             this.btnDruidBear.TabIndex = 7;
-            this.btnDruidBear.Text = "Druid Bear Shaman\r\nHealth – 8\r\nAttack – 2\r\nCost – 350";
+            this.btnDruidBear.Text = "Druid Bear Shaman\r\nHealth: 8\r\nAttack: 2\r\nCost: 350";
             this.btnDruidBear.UseVisualStyleBackColor = true;
             this.btnDruidBear.Click += new System.EventHandler(this.btnDruidBear_Click);
             // 
@@ -170,7 +170,7 @@
             this.btnWolfWarrior.Name = "btnWolfWarrior";
             this.btnWolfWarrior.Size = new System.Drawing.Size(81, 75);
             this.btnWolfWarrior.TabIndex = 14;
-            this.btnWolfWarrior.Text = "Wolf Warrior\r\nHealth – 3\r\nAttack – 7\r\nCost – 350";
+            this.btnWolfWarrior.Text = "Wolf Warrior\r\nHealth: 3\r\nAttack: 7\r\nCost: 350";
             this.btnWolfWarrior.UseVisualStyleBackColor = true;
             this.btnWolfWarrior.Click += new System.EventHandler(this.btnWolfWarrior_Click);
             // 
@@ -180,7 +180,7 @@
             this.btnRockMonster.Name = "btnRockMonster";
             this.btnRockMonster.Size = new System.Drawing.Size(81, 75);
             this.btnRockMonster.TabIndex = 13;
-            this.btnRockMonster.Text = "Rock Monster\r\nHealth – 9\r\nAttack – 1\r\nCost – 350";
+            this.btnRockMonster.Text = "Rock Monster\r\nHealth: 9\r\nAttack: 1\r\nCost: 350";
             this.btnRockMonster.UseVisualStyleBackColor = true;
             this.btnRockMonster.Click += new System.EventHandler(this.btnRockMonster_Click);
             // 
@@ -190,7 +190,7 @@
             this.btnPaladin.Name = "btnPaladin";
             this.btnPaladin.Size = new System.Drawing.Size(81, 75);
             this.btnPaladin.TabIndex = 12;
-            this.btnPaladin.Text = "Paladin\r\nHealth – 7\r\nAttack – 6\r\nCost – 450";
+            this.btnPaladin.Text = "Paladin\r\nHealth: 7\r\nAttack: 6\r\nCost: 450";
             this.btnPaladin.UseVisualStyleBackColor = true;
             this.btnPaladin.Click += new System.EventHandler(this.btnPaladin_Click);
             // 
@@ -200,7 +200,7 @@
             this.btnOrcCrusader.Name = "btnOrcCrusader";
             this.btnOrcCrusader.Size = new System.Drawing.Size(81, 75);
             this.btnOrcCrusader.TabIndex = 11;
-            this.btnOrcCrusader.Text = "Orc Crusader\r\nHealth – 5\r\nAttack – 8\r\nCost – 450";
+            this.btnOrcCrusader.Text = "Orc Crusader\r\nHealth: 5\r\nAttack: 8\r\nCost: 450";
             this.btnOrcCrusader.UseVisualStyleBackColor = true;
             this.btnOrcCrusader.Click += new System.EventHandler(this.btnOrcCrusader_Click);
             // 
@@ -210,7 +210,7 @@
             this.btnTheOldGuard.Name = "btnTheOldGuard";
             this.btnTheOldGuard.Size = new System.Drawing.Size(81, 75);
             this.btnTheOldGuard.TabIndex = 18;
-            this.btnTheOldGuard.Text = "The Old Guard\r\nHealth – 8\r\nAttack – 8\r\nCost – 500";
+            this.btnTheOldGuard.Text = "The Old Guard\r\nHealth: 8\r\nAttack: 8\r\nCost: 500";
             this.btnTheOldGuard.UseVisualStyleBackColor = true;
             this.btnTheOldGuard.Click += new System.EventHandler(this.btnTheOldGuard_Click);
             // 
@@ -220,7 +220,7 @@
             this.btnTigerOrc.Name = "btnTigerOrc";
             this.btnTigerOrc.Size = new System.Drawing.Size(81, 75);
             this.btnTigerOrc.TabIndex = 17;
-            this.btnTigerOrc.Text = "Tiger Orc Berserker\r\nHealth – 8\r\nAttack – 9\r\nCost – 550";
+            this.btnTigerOrc.Text = "Tiger Orc Berserker\r\nHealth: 8\r\nAttack: 9\r\nCost: 550";
             this.btnTigerOrc.UseVisualStyleBackColor = true;
             this.btnTigerOrc.Click += new System.EventHandler(this.btnTigerOrc_Click);
             // 
@@ -230,7 +230,7 @@
             this.btnVitas.Name = "btnVitas";
             this.btnVitas.Size = new System.Drawing.Size(81, 75);
             this.btnVitas.TabIndex = 16;
-            this.btnVitas.Text = "Vitas\r\nHealth – 12\r\nAttack – 12\r\nCost – 2000";
+            this.btnVitas.Text = "Vitas\r\nHealth: 12\r\nAttack: 12\r\nCost: 2000";
             this.btnVitas.UseVisualStyleBackColor = true;
             this.btnVitas.Click += new System.EventHandler(this.btnVitas_Click);
             // 
@@ -240,7 +240,7 @@
             this.btnExtra.Name = "btnExtra";
             this.btnExtra.Size = new System.Drawing.Size(81, 75);
             this.btnExtra.TabIndex = 15;
-            this.btnExtra.Text = "Extra\r\nHealth – 1\r\nAttack – 0\r\nCost – 5";
+            this.btnExtra.Text = "Extra\r\nHealth: 1\r\nAttack:  0\r\nCost: 5";
             this.btnExtra.UseVisualStyleBackColor = true;
             this.btnExtra.Click += new System.EventHandler(this.btnExtra_Click);
             // 
@@ -286,6 +286,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(202)))), ((int)(((byte)(132)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReset);
